@@ -3,43 +3,69 @@
     font: Arial;
     margin: 0px;
     padding: 0px;
-    align-items: center;
+    
 
 }
-header{
+body{
     background-color: black;
+   
+    margin: auto;
+}
+html{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    
+    margin: auto;
+}
+header{
+    background-color: white;
     color: white;
     margin: 0px;
     padding: 30px;
-    display: flexbox; 
+    display: block;
     text-align: center;
+    width: 100vw;
+}
+header > img{
+    width: 70px;
+    height: 60px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+
+    
 }
 menu{
     display: none;
     padding: 20px;
 }
 nav{
-    padding: 60px;
-    display: inline;
+    padding: 50px;
+    color: black;
 }
 #zap{
     background-color: green;
-    width: 10px;
+    width: 155px;
     height: 20px;
     padding: 10px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
 }
 #menuicon{
-    background-color: gray;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 10px;
     width: 80vw;
+    justify-content:flex-end;
+    text-align: center;
 }
-#menuicon:hover{
-    background-color: white;
-    color: black;
-    cursor: pointer;
+#menicon:hover{
+    background-color: black;
+    color: white;
 }
 #port{
     padding: 20px;
