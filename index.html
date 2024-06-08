@@ -29,7 +29,14 @@
         <section id="inicio">
                 <h1>NÓS SOMOS KRAPPER </h1>
                 <h3>SOMOS UMA  EMPRESA ESPECIALIZADA EM PÓS PRODUÇÃO PARA FORMATOS VERTICAIS</h3>
-                <a href=""></a>
+                <button onclick="popup()" id="botao">Venha conhecer</button>
+                <dialog id="modal">
+                    <iframe width="440" height="315" src="https://www.youtube.com/embed/Ewqqe--2XT8?si=Y2OcfvaAGw7jDLXh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+                    </iframe>
+                    <button onclick="fecharpopup()">Fechar</button>
+                 </dialog>
+
         </section>
         <div class="box"></div>
        <section id="port">
@@ -61,6 +68,17 @@
                     menu.style.display = 'block'
                 
                 }
+            }
+
+            function popup(){
+                const modal = document.getElementById("modal")
+                const botao = document.getElementById("botao")
+                modal.show()
+            }
+            function fecharpopup(){
+                const modal = document.getElementById("modal")
+                const botao = document.getElementById("botao")
+                modal.close()
             }
         </script>
 </body>
