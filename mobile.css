@@ -1,6 +1,6 @@
 @charset "UTF-8";
 *{
-    font: Arial;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
    
@@ -18,15 +18,16 @@ html{
     align-items: center;
     justify-content: center;
     display: flexbox;
-    color: white;
+    color: #3D374F;
     margin: auto;
 }
 header{
-    
-    background-color: #F1D2E8;
+    background-image: radial-gradient(circle, #F0CCE2, #F1D9F1);
     margin: 0px;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
     
 }
 header > img{
@@ -35,15 +36,13 @@ header > img{
     margin: 0px;
     width: 70px;
     height: 60px;
-    align-items: flex-start;
-    display: flex;
-    justify-content: flex-start;
-
-    
+    position: static;
 }
 menu{
     display: none;
     padding: 20px;
+    text-align: center;
+    
 }
 nav{
     padding: 50px;
@@ -59,19 +58,18 @@ nav{
     text-align: center;
 }
 #menuicon{
-    display:  grid;
+    position: static;
     color: black;
-    text-align: center; 
-    justify-content:end;
-    text-align: center;
-    padding-right: 10px ;
+    height: 30px;
+    padding: 0;
+    width: 30px;
 }
 #menicon:hover{
     background-color: black;
     color: white;
 }
 #inicio{
-    height: 400px;
+    height: 300px;
     text-align: center;
     
     background-size: cover;
@@ -86,6 +84,10 @@ nav{
 #inicio >h3{
     padding-top: 20px;
     font-weight: bolder;
+}
+#inicio > p {
+    color: #FF160B;
+    font-weight: bold;
 }
 
 #modal{
@@ -105,11 +107,13 @@ nav{
 .box{
    
     width: 98vw;
-    height: 3px;
+    height: 2px;
     margin: 5px;
-    background-image: linear-gradient(to right, #FF160B 40%, transparent);
+    background-image: radial-gradient(circle, #FF160B, transparent);
+   
     
 }
+
 #meio {
     text-align: center;
 }
@@ -118,7 +122,9 @@ nav{
         color: #FF160B;
         margin-bottom: 10px;
 }
-
+#meio > img{
+        width: 130px;
+}
 footer{
     height: 100px;
     background-color: black;
