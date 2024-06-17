@@ -175,23 +175,23 @@ nav{
 }
 
 #quad2{
-   
+    height: 120px;
     margin-top: 5px;
 }
 #quad1{
-    height:  160px;
+    height:  170px;
     margin-right: 5px;
     
 }
 #quad3{
     
-    height: 300px;
+    height: 320px;
 }
 #quad4{
     margin-left: 5px;
     width: 135px;
    
-    height: 120px;
+    height: 130px;
 }
 
 #quad5{
@@ -199,7 +199,7 @@ nav{
     margin-left: 5px;
     width: 135px;
     
-    height: 150px;
+    height: 160px;
 }
 #top{
     display: grid;
