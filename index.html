@@ -14,7 +14,7 @@
 </head>
 <body>
         <header>
-            <img src="imagens/a87270eb-0c05-4ea8-b22d-3a29dc74d703-removebg-preview.png" alt="ERRO">
+            <img src="imagens/620db9c4-fbeb-490c-a63d-7ff1883e635b-removebg-preview.png" alt="ERRO">
            <img src="imagens/menu_48dp_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="clickmenu()" id="menuicon">
            
         </header>
@@ -58,11 +58,51 @@
             <h2>OQUE NÓS </h2>
             <H1>OFERECEMOS?</H1>
             <div id="top">
-                <h3>Animação</h3>
-                <h3>Edição</h3>
-                <h3>Motion Design</h3>
-                <h3>3d</h3>
-                <h3>Sound Design</h3>
+                <div id="topcima">
+                    
+                    <h3>Animação</h3>
+                    <h3 id="h31">3d</h3>
+                    
+                </div>
+                <div id="topbaixo">
+                    <h3>Edição</h3>
+                    <h3>Motion Design</h3>
+                    <h3>Sound Design</h3>
+                </div>
+            </div>
+            <div id="quada">
+                <div id="esq">
+                    <div id="quad1" class="quads">
+                        <img src="imagens/EDITION.svg" alt="video-content">
+                    
+                            <h2>Edição</h2>
+                            <p>Montagem precisa <br> dos takes de forma a <br> levar a emoção desejada para o espectador</p>
+                    </div>
+                    <div id="quad2" class="quads">
+                        <img src="imagens/CUBE 2.svg" alt="">
+                        <h2>Animações <br> em 3d</h2>
+                    
+                    </div>
+                </div>
+
+                <div id="quad3" class="quads">
+                    <h2>Pós produção <br> completa</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus minima provident odio ipsa. Amet quam officiis, a aperiam harum deserunt perferendis atque </p>
+
+                </div>
+                <div id="dir">
+                    <div id="quad4" class="quads">
+                        <img src="imagens/CHARACTER 1.svg" alt="">
+                        <h2>Animações de <br> personaagens</h2>
+                    </div>
+                    <div id="quad5" class="quads">
+                        <h2>Sound Design</h2>
+                        <p>Trilha sonora e efeitos <br> de som para deixar o <br> seu vídeo impactante</p>
+                    </div>
+                </div>
+                
+                
+
             </div>
         </section>
        
@@ -93,15 +133,21 @@
 
        <section id="formu">
         <h1>QUER SER UM <br>PARCEIRO KRAPPER?</h1>
-        <p>Preencha esse formulário, ou clique no botão do WhatsApp <br> que está aparecendo embaixo, adoraríamos saber <br> qual o seu projeto</p>
+        <p>Preencha esse formulário, ou clique no botão do WhatsApp <br> que está aparecendo embaixo, adoraríamos saber <br> <h4>qual o seu projeto</h4></p>
 
         <form action="contato.php">
            
            
-            <label for="inome">Nome:</label> <br>
-            <input type="text" name="nome" id="inome"> <br>
-            <label for="isobn">Sobrenome</label> <br>
-            <input type="text" name="sobn" id="isobn"> <br>
+            <div id="formunome">
+                <label for="inome">Nome</label> <br>
+                <label for="isobn">Sobrenome</label> <br>
+            </div>
+
+            <div id="formuinnome">
+                <input type="text" name="nome" id="inome"> <br>
+                <input type="text" name="sobn" id="isobn" class="isobnc"> <br>
+            </div>
+
             <label for="imail">E-mail*</label>  <br>
             <input type="email" name="mail" id="imail"> <br>
             <label for="iass">Sua Mensagem</label> <br>
@@ -113,6 +159,7 @@
         
 
        </section>
+       
        <section id="con">
         <h1>CONTATOS:</h1>
         <p><i class="fa-regular fa-envelope"></i>sac@krapper.com.br</p>
@@ -120,19 +167,40 @@
 
     </section>
         <footer>
-            <img src="imagens/d08873eb-866a-46e9-8077-c124b8ca206b-removebg-preview.png" alt="">
-           <h2>Siga-nos</h2>
-           <a href="" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
+            <div id="footpag">
+                
+                <div id="footpagtext">
+                    <h2>Páginas importantes:</h2>
+                    <a href="">Sobre nós</a> <br>
+                    <a href="">Portifólio</a>
+                    
+                </div>
+
+                <div id="footpagimg">
+                    <img src="imagens/29ce8169-00ed-4939-81c0-e5565305089e-removebg-preview.png" alt="">
+                </div>
+            </div>
+           
+            <div id="footfo">
+                <h2>Siga-nos</h2>
+                           <a href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a href="" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
             
-            <a href="" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
             <div id="box1"></div>
-            <h2>Contato</h2>
-            <p>sac@krapper.com.br</p>
-            <p>(16) 99795-4025</p>
+            
+            <div id="footcon">
+                <h2>Contato</h2>
+                <p>sac@krapper.com.br</p>
+                <p>(16) 99795-4025</p>
+            </div>
+            
             <div id="box1"></div>
-            <p>Copyright © 2024 Krapper Studios Brasil | Todos os direitos reservados</p>
+            
+            <p id="copy">Copyright © 2024 Krapper Studios Brasil | Todos os direitos reservados</p>
          </footer>
         
         <script>
@@ -158,10 +226,10 @@
                 const botao = document.getElementById("botao")
                 modal.close()
             }
-            $('.carossel').slick();
+           
         </script>
        
-       <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+       
       
 </body>
 </html>
