@@ -272,8 +272,10 @@ nav{
 
 
 #formu{
+    
     text-align: center;
     margin: 20px;
+    
 }
 #formu > h1{
     color: #8007FF;
@@ -284,6 +286,11 @@ nav{
 }
 form{
     margin-top: 10px;
+    text-align: left;
+    
+}
+form > label{
+    margin-left: 10px;
 }
 input{
     width: 190px;
@@ -306,7 +313,7 @@ label{
     font-weight: bold;
 }
 #enviar{
-    width: 370px;
+    width: 374px;
     height: 35px;
     color: white;
     padding: 3px;
@@ -318,28 +325,36 @@ label{
     display: flex;
 }
 #formunome > label{
-    margin-right: 160px;
+    margin-left: 8px;
+    margin-right: 155px;
 }
 #formuinnome{
     display: flex;
 }
 #formuinnome > input{
-    margin-right: 10px;
+    margin-right: 23px;
+    width: 180px;
+}
+.isobnc{
+    margin-right: 0px;
 }
 #formuzap{
-    width: 370px;
+    width: 374px;
     height: 35px;
     color: white;
     padding: 3px;
     border: 2px solid #BD2FFF;
     border-radius: 10px;
     background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+    margin-left: 5px;
+    
 }
 #formuzap > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: larger;
+   
 }
 #con{
     text-align: center;
