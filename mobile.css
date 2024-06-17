@@ -158,9 +158,9 @@ nav{
     width: 120px;
     border : 2px solid #CE2AF4; 
     border-radius: 20px;
-    padding: 5px;
-    
-
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .quads> p {
     font-size: smaller;
@@ -173,21 +173,33 @@ nav{
     color: #F564D3;
     font-size: 1.4em;
 }
+
 #quad2{
+    box-sizing: content-box;
     margin-top: 5px;
 }
 #quad1{
     height:  160px;
     margin-right: 5px;
+    box-sizing: content-box;
+}
+#quad3{
+    box-sizing: content-box;
+    height: 300px;
 }
 #quad4{
     margin-left: 5px;
     width: 135px;
+    box-sizing: content-box;
+    height: 120px;
 }
+
 #quad5{
     margin-top: 5px;
     margin-left: 5px;
     width: 135px;
+    box-sizing: content-box;
+    height: 150px;
 }
 #top{
     display: grid;
