@@ -157,7 +157,7 @@ nav{
     margin-top: 72px;
     width: 120px;
     border : 2px solid #CE2AF4; 
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5px;
     
 
@@ -171,6 +171,7 @@ nav{
 }
 .quads > h2{
     color: #F564D3;
+    font-size: 1.4em;
 }
 #quad2{
     margin-top: 5px;
