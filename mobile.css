@@ -171,7 +171,7 @@ nav{
 }
 .quads > h2{
     color: #F564D3;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 #quad2{
@@ -179,13 +179,13 @@ nav{
     margin-top: 5px;
 }
 #quad1{
-    height:  170px;
+    height:  180px;
     margin-right: 5px;
     
 }
 #quad3{
     
-    height: 320px;
+    height: 330px;
 }
 #quad4{
     margin-left: 5px;
@@ -199,7 +199,7 @@ nav{
     margin-left: 5px;
     width: 135px;
     
-    height: 160px;
+    height: 170px;
 }
 #top{
     display: grid;
