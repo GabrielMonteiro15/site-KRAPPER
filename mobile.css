@@ -175,22 +175,22 @@ nav{
 }
 
 #quad2{
-    box-sizing: content-box;
+   
     margin-top: 5px;
 }
 #quad1{
     height:  160px;
     margin-right: 5px;
-    box-sizing: content-box;
+    
 }
 #quad3{
-    box-sizing: content-box;
+    
     height: 300px;
 }
 #quad4{
     margin-left: 5px;
     width: 135px;
-    box-sizing: content-box;
+   
     height: 120px;
 }
 
@@ -198,7 +198,7 @@ nav{
     margin-top: 5px;
     margin-left: 5px;
     width: 135px;
-    box-sizing: content-box;
+    
     height: 150px;
 }
 #top{
