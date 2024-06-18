@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 435px){
+    *{
+        margin: auto;
+        padding: 0px;
+    }
+    body{
+        background-image: url(imagens/fundopcpng.png);
+    }
+   
+    #hitens{
+        width: 100vw;
+        background-color: #E3DCF2;
+        background-image: radial-gradient(circle, #F0E3F9, #F1E5FE);
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    #hitens > img{
+        padding-left: 10px;
+        padding-top: 10px;
+        margin: 0px;
+        width: 150px;
+        height: 45px;
+        position: static;
+    }
+    #logo{
+        margin-right: 0px;
+    }
+    #menuicon{
+
+        display: none;
+    }
+    menu{
+        display: flex;
+        margin: 0px;
+        
+    }
+    menu > nav{
+        
+    }
+
+}
+    

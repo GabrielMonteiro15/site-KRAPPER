@@ -26,36 +26,44 @@ header{
     margin: 0px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
-header > img{
+header > div > img{
     padding-left: 10px;
     padding-top: 10px;
     margin: 0px;
+    
     width: 150px;
     height: 45px;
-    position: static;
+   
 }
+
 menu{
     display: none;
     padding: 20px;
     text-align: center;
     
+    
+}
+menu > nav > a{
+    text-decoration: none;
+    color: #453F59;
 }
 nav{
     padding: 50px;
     color: black;
 }
 #zap{
-    background-color: green;
     width: 155px;
     height: 20px;
     padding: 10px;
     display: inline-block;
     align-items: center;
     text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
 }
 #menuicon{
     position: static;
@@ -63,6 +71,8 @@ nav{
     height: 30px;
     padding: 0;
     width: 30px;
+    margin-left: 220px;
+    
 }
 #menicon:hover{
     background-color: black;
@@ -84,6 +94,7 @@ nav{
 #inicio >h3{
     padding-top: 20px;
     font-weight: bolder;
+    color: #453F59;
 }
 #inicio > p {
     color: #FF160B;
@@ -332,7 +343,7 @@ label{
     display: flex;
 }
 #formuinnome > input{
-    margin-right: 23px;
+    margin-right: 15px;
     width: 180px;
 }
 .isobnc{
