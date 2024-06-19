@@ -242,5 +242,88 @@
         padding: 10px;
 
     }
+    #formu{
+    
+        text-align: center;
+        margin: 20px;
+        
+    }
+    #formu > h1{
+        color: #8007FF;
+        font-size: 2.4em;
+    }
+    #formu > h4{
+        color: #C200FF;
+    }
+    form{
+        margin-top: 10px;
+        text-align: left;
+        
+    }
+    form > label{
+        margin-left: 10px;
+    }
+    input{
+        width: 50vw;
+        height: 30px;
+        background-image: linear-gradient(to right, #CD8AFF, #DA9AFF);
+        border: 2px solid #BD2FFF;
+        border-radius: 15px;
+        margin: 5px;
+       
+    }
+    #imail{
+        width: 85vw;
+    }
+    #iass{
+        width: 85vw;
+    }
+    
+    label{
+        color: #7408FF;
+        font-weight: bold;
+    }
+    #enviar{
+        width: 50vw;
+        height: 35px;
+        color: white;
+        padding: 3px;
+        font-weight: bold;
+        font-size: larger;
+        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+    }
+    #formunome{
+        display: flex;
+    }
+    #formunome > label{
+        margin-left: 8px;
+        margin-right: 690px;
+    }
+    #formuinnome{
+        display: flex;
+    }
+    #formuinnome > input{
+        margin-right: 15px;
+        width: 45vw;
+    }
+    .isobnc{
+        margin-right: 0px;
+    }
+    #formuzap{
+        width: 85vw;
+        height: 35px;
+        color: white;
+        padding: 3px;
+        border: 2px solid #BD2FFF;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+    }
+    #formuzap > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: larger;
+       
+    }
 }
     
