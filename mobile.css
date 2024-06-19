@@ -25,22 +25,26 @@ html{
 header{
     background-image: radial-gradient(circle, #F0CCE2, #F1D9F1);
     margin: 0px;
-    display: flex;
+    display: grid;
     text-align: center;
-    justify-content: space-around;
+    
     align-items: center;
     
 }
-header > div > img{
-    padding-left: 10px;
+header> div > img{
     padding-top: 10px;
     margin: 0px;
-    
     width: 150px;
     height: 45px;
    
 }
 
+#hitens{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 menu{
     display: none;
     padding: 20px;
@@ -70,12 +74,14 @@ nav{
     border-radius: 15px;
 }
 #menuicon{
-    position: static;
+    
     color: black;
     height: 30px;
     padding: 0;
     width: 30px;
-    margin-left: 220px;
+    
+    display: flex;
+    justify-content: end;
     
 }
 #menicon:hover{
@@ -258,17 +264,17 @@ nav{
 #h31{
     transform: rotate(30deg);
 }
-#port{
+#portdiv{
     margin: 30px;
     text-align: center;
 
 }
-#port > h1{
+#portdiv > h1{
     font-size: 2.5em;
     color: #F100DF;
     margin-bottom: 20px;
 }
-#port > a{
+#portdiv > a{
         border: 2px solid#F100DF;
         text-decoration: none;
         color: white;
@@ -321,19 +327,19 @@ form > label{
     margin-left: 10px;
 }
 input{
-    width: 190px;
+    width: 50vw;
     height: 30px;
     background-image: linear-gradient(to right, #CD8AFF, #DA9AFF);
     border: 2px solid #BD2FFF;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 5px;
    
 }
 #imail{
-    width: 370px;
+    width: 85vw;
 }
 #iass{
-    width: 370px;
+    width: 85vw;
 }
 
 label{
@@ -341,7 +347,7 @@ label{
     font-weight: bold;
 }
 #enviar{
-    width: 374px;
+    width: 85vw;
     height: 35px;
     color: white;
     padding: 3px;
@@ -361,21 +367,19 @@ label{
 }
 #formuinnome > input{
     margin-right: 15px;
-    width: 180px;
+    width: 53vw;
 }
 .isobnc{
     margin-right: 0px;
 }
 #formuzap{
-    width: 374px;
+    width: 85vw;
     height: 35px;
     color: white;
     padding: 3px;
     border: 2px solid #BD2FFF;
-    border-radius: 10px;
+    border-radius: 15px;
     background-image: linear-gradient(to right, #D870FF, #AA4CFD);
-    margin-left: 5px;
-    
 }
 #formuzap > a{
     text-decoration: none;
