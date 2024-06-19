@@ -10,6 +10,7 @@ body{
     background: url(imagens/fundomobilepng.png);
     background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     margin: auto;
     
 }
@@ -54,6 +55,9 @@ menu > nav > a{
 nav{
     padding: 50px;
     color: black;
+}
+#pczin{
+    display: none;
 }
 #zap{
     width: 155px;
@@ -104,7 +108,6 @@ nav{
 #modal{
     width: 400px;;
     position: fixed;
-    
     margin: auto;
     
 }
@@ -120,6 +123,11 @@ nav{
     top: 0; 
     bottom: 0;
 }
+.cordif{
+    display: block;
+    color: #FF003D;
+}
+
 #botao{
     margin: 20px;
     padding: 10px;
@@ -128,6 +136,10 @@ nav{
     background-color: #FF160B;
     color: white;
 
+}
+#botao > a{
+    text-decoration: none;
+    color: white;
 }
 .box{
    
@@ -150,12 +162,12 @@ nav{
 #meio > img{
         width: 130px;
 }
-#ofe{
+#ofediv{
     text-align: center;
     
     
 }
-#ofe > h1 {
+#ofediv > h1 {
     margin-top: 3px;
     font-size: 2.5em;
     color: #FF0086;
@@ -212,6 +224,9 @@ nav{
     
     height: 170px;
 }
+#ofediv{
+
+}
 #top{
     display: grid;
     justify-items: center;
@@ -219,9 +234,11 @@ nav{
 }
 #topcima {
     display: flex;
+    color: #FF207C;
 }
 #topbaixo{
     display: flex;
+    color: #FF207C;
 }
 #topcima > h3{
     

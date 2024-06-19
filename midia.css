@@ -1,14 +1,18 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 435px){
+
+@media screen and (min-width: 430px){
     *{
         margin: auto;
         padding: 0px;
     }
+    
     body{
         background-image: url(imagens/fundopcpng.png);
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
-   
     #hitens{
         width: 100vw;
         background-color: #E3DCF2;
@@ -29,6 +33,9 @@
     #logo{
         margin-right: 0px;
     }
+    #pczin{
+        display: flex;
+    }
     #menuicon{
 
         display: none;
@@ -38,9 +45,103 @@
         margin: 0px;
         
     }
-    menu > nav{
+    #inicio{
+        height: 700px;
+        margin-top: 30px;
         
     }
+    #inicio > p{
+        font-size: 1.8em;
+        letter-spacing: 2px;
+    }
+    #iniciodiv{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #iniciodiv > img{
+        width: 350px;
+        height: 350px;
+    }
+    #inside > h1{
+    
+        color: #FF160B;
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    #inside > h3{
+        font-size: 2em;
+    }
+    .box{
+        margin: auto;
+        
+        display: flex;
+        align-items: center;
+        width: 52vw;
+        height: 3px;
+        background-image: radial-gradient(circle, #FF160B, transparent);
+    }
+    #modal{
+        width: 1000px;
+        height: 1000px;
+        
+        
+        
+    }
+    #modal:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #modal:target + #fundo{
+        background-color: rgba(0,0,0,0.75);
+        position: fixed;
+        right: 0; 
+        left: 0; 
+        top: 0; 
+        bottom: 0;
+    }
+    #botao{
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+        border: none;
+        background-color: #FF160B;
+        color: white;
+    
+    }
+    #botao > a{
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+    }
+    #meio{
 
+    }
+    #meio > h1{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+
+    #meio > h3{
+        
+        font-size: 1.8em;
+    }
+    #meio > p{
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+    .cordif{
+        display: block;
+        color: #FF003D;
+    }
+    #ofe{
+        display: flex;
+    }
+    #top{
+        display: flex;
+    }
+    #quads{
+        display: inline-block;
+    }
 }
     

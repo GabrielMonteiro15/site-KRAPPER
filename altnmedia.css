@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@media screen and (max-width: 800px){
+    #menuicon{
+        display: flex;
+        position: static;
+        color: black;
+        height: 30px;
+        padding: 0;
+        width: 30px;
+        margin-left: 220px;
+        
+    }
+    menu{
+        display: none;
+        
+        
+    }
+}
