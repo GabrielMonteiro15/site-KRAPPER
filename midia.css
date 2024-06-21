@@ -14,6 +14,7 @@
         background-repeat: no-repeat;
     }
     header{
+        
         display: flex;
         background-image:  radial-gradient(circle, #F0E3F9, #F1E5FE);;
         margin-right: 60px;
@@ -234,13 +235,43 @@
         display: grid;
     }
     #portdiv{
-        display: inline-flex;
-        word-spacing: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        word-spacing: 3px;
+        
     }
-    #portdiv > a {
+    #portdiv > h2{
+        margin: 0px;
+    }
+    #portdiv > h1{
+        margin: 0px;
+        display: flex;
+    } 
+
+    #port > div > a {
+        
         width: 200px;
         padding: 10px;
 
+
+    }
+    #pf{
+        
+    }
+    #cp{
+      
+    }
+    #cp > p {
+        display: grid;
+        width: 700px;
+        height: 30px;
+        text-align: start;
+        padding: 5px;
+        
+    }
+    #cp > strong{
+        text-align: start;
     }
     #formu{
     

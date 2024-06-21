@@ -298,13 +298,14 @@ nav{
 }
 #cp > p{
     width: 100px;
-    border: 2px solid #8007FF;
-    border-radius: 10px;
-    display: grid;
+    border: 2px solid #9733FE;
+    border-radius: 15px;
+    display: flex;
+    color: #B85BFE;
+    font-weight: bold;
+    font-size: 1.2em;
     
 }
-
-
 #formu{
     
     text-align: center;
@@ -367,7 +368,7 @@ label{
 }
 #formuinnome > input{
     margin-right: 15px;
-    width: 45vw;
+    width: 38vw;
 }
 .isobnc{
     margin-right: 0px;
@@ -375,6 +376,7 @@ label{
 #formuzap{
     width: 85vw;
     height: 35px;
+    margin: 5px;
     color: white;
     padding: 3px;
     border: 2px solid #BD2FFF;
