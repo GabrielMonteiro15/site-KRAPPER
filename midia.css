@@ -274,17 +274,32 @@
         text-align: start;
     }
     #formu{
-    
+        display: grid;
         text-align: center;
         margin: 20px;
+        align-items: center;
+        margin-bottom: 70px;
         
     }
-    #formu > h1{
-        color: #8007FF;
-        font-size: 2.4em;
+    #formutitle{
+        display: grid;
+        text-align: center;
+        margin: 20px;
+        align-items: center;
+        margin-right: 500px;
+        height: 150px;
+       
     }
-    #formu > h4{
+    #formutitle > h1{
+        color: #8007FF;
+        font-size: 3em;
+    }
+    #formutitle > h4{
         color: #C200FF;
+        font-size: 1.5em;
+    }
+    #formutitle > p {
+        font-size: larger;
     }
     form{
         margin-top: 10px;
@@ -296,7 +311,7 @@
     }
     input{
         width: 50vw;
-        height: 30px;
+        height: 40px;
         background-image: linear-gradient(to right, #CD8AFF, #DA9AFF);
         border: 2px solid #BD2FFF;
         border-radius: 15px;
@@ -304,10 +319,11 @@
        
     }
     #imail{
-        width: 85vw;
+        width: 40vw;
     }
     #iass{
-        width: 85vw;
+        width: 40vw;
+        height: 120px;
     }
     
     label{
@@ -315,7 +331,7 @@
         font-weight: bold;
     }
     #enviar{
-        width: 50vw;
+        width: 40vw;
         height: 35px;
         color: white;
         padding: 3px;
@@ -328,26 +344,27 @@
     }
     #formunome > label{
         margin-left: 8px;
-        margin-right: 690px;
+        margin-right: 370px;
     }
     #formuinnome{
         display: flex;
     }
     #formuinnome > input{
-        margin-right: 15px;
-        width: 45vw;
+        margin-right: 25px;
+        width: 19vw;
     }
     .isobnc{
         margin-right: 0px;
     }
     #formuzap{
-        width: 85vw;
-        height: 35px;
+        width: 40vw;
+        height: 40px;
         color: white;
         padding: 3px;
         border: 2px solid #BD2FFF;
         border-radius: 15px;
         background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+        display: block;
     }
     #formuzap > a{
         text-decoration: none;
@@ -355,6 +372,71 @@
         font-weight: bold;
         font-size: larger;
        
+    }
+    #cont{
+        display: flex;
+        flex-direction: row-reverse;
+       
+    }
+    #con{
+        display: grid;
+        margin-right: 0px;
+    }
+    #con > p{
+        font-size: large;
+        word-spacing: 2px;
+    }
+    footer{
+        height: 300px;
+        background-color: #E8DEF4;
+        color: #3D374F;
+        font-weight: bold;
+        padding-top: 30px;
+        display: grid;
+    }
+    #footpag{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    #footpagimp{
+        display: flex;
+    }
+    #footpagimg > img{
+        width: 70px;
+        height: 70px;
+        margin-right: 5px;
+    }
+    #footpagtext > a{
+        text-decoration: none;
+        color: #3D374F;
+        
+    }
+    #footfo{
+        flex-direction: column;
+        display: flex;
+    }
+    #footfo > a{
+        text-decoration: none;
+        color: #3D374F;
+    }
+    #footcon{
+        display: flex;
+    }
+    footer > a{
+        text-decoration: none;
+        color: #3D374F;
+    }
+    footer > a:hover{
+        color: red;
+    }
+    footer > img{
+        width: 30px;
+        height: 30px;
+    }
+    #copy{
+        font-size: smaller;
     }
 }
     

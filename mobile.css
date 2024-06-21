@@ -312,11 +312,11 @@ nav{
     margin: 20px;
     
 }
-#formu > h1{
+#formutitle> h1{
     color: #8007FF;
     font-size: 2.4em;
 }
-#formu > h4{
+#formutitle > h4{
     color: #C200FF;
 }
 form{
