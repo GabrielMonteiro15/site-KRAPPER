@@ -264,17 +264,17 @@ nav{
 #h31{
     transform: rotate(30deg);
 }
-#portdiv{
+#port{
     margin: 30px;
     text-align: center;
 
 }
-#portdiv > h1{
+#port > h1{
     font-size: 2.5em;
     color: #F100DF;
     margin-bottom: 20px;
 }
-#portdiv > a{
+#port > a{
         border: 2px solid#F100DF;
         text-decoration: none;
         color: white;

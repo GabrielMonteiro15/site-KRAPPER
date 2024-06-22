@@ -233,27 +233,32 @@
     }
     #port{
         display: grid;
-    }
-    #portdiv{
-        display: flex;
+        
         justify-content: center;
         text-align: center;
         word-spacing: 3px;
-        
     }
-    #portdiv > h2{
+    #port > h2{
         margin: 0px;
+        font-size: 2.4em;
+        white-space: nowrap;
     }
-    #portdiv > h1{
+    #port> h1{
         margin: 0px;
         display: flex;
+        white-space: nowrap;
     } 
 
-    #port > div > a {
+    #port > a {
         
-        width: 200px;
-        padding: 10px;
-
+        width: 250px;
+        height: 20px;
+        padding: 10px
+        
+    }
+    #dis{
+        display: inline-block;
+        width: 700px;
 
     }
     #pf{
