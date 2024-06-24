@@ -232,41 +232,42 @@
         width: 200px;
     }
     #port{
-        display: grid;
-        
+        display: flex;
         justify-content: center;
         text-align: center;
         word-spacing: 3px;
+       
     }
     #port > h2{
         margin: 0px;
-        font-size: 2.4em;
-        white-space: nowrap;
-    }
-    #port> h1{
-        margin: 0px;
-        display: flex;
-        white-space: nowrap;
-    } 
-
-    #port > a {
-        
-        width: 250px;
-        height: 20px;
-        padding: 10px
-        
-    }
-    #dis{
+        font-size: 2em;
+        margin-bottom: -1em;
         display: inline-block;
-        width: 700px;
-
     }
-    #pf{
+    #port > h1{
+        margin: 0px;
         
+        margin-top: 1em;
+       margin-left: -325px;
+    } 
+  
+    #port > a{
+        width: 200px;
+        height: 30px;
+        padding: 10px;
+        padding-right: 30px;
+        font-weight: bold;
+        font-size: 1.3em;
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
     }
-    #cp{
-      
+   
+    #dis{
+        display: block;
+        text-align: center;
     }
+    
     #cp > p {
         display: grid;
         width: 700px;
@@ -284,6 +285,8 @@
         margin: 20px;
         align-items: center;
         margin-bottom: 70px;
+        margin-right: 200px;
+        margin-left: 0px;
         
     }
     #formutitle{
@@ -293,11 +296,14 @@
         align-items: center;
         margin-right: 500px;
         height: 150px;
-       
+    
     }
     #formutitle > h1{
         color: #8007FF;
-        font-size: 3em;
+        font-size: 2.5em;
+        white-space: nowrap;
+        padding-left: 20px;
+        
     }
     #formutitle > h4{
         color: #C200FF;
@@ -381,6 +387,8 @@
     #cont{
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
        
     }
     #con{

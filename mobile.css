@@ -274,13 +274,13 @@ nav{
     color: #F100DF;
     margin-bottom: 20px;
 }
-#port > a{
-        border: 2px solid#F100DF;
-        text-decoration: none;
-        color: white;
-        border-radius: 10px;
-        padding: 5px;
-        margin: 10px;
+#port> a{
+     border: 2px solid#F100DF;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+     margin: 10px;
 }
 #pf{
     text-align: center;
