@@ -385,16 +385,17 @@
     }
     #formutitle > h4{
         color: #C200FF;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-family: var(--font1);
         font-weight: bold;
-        white-space:  nowrap;
+        margin-top: -1.7em;
+        margin-right: 175px;
     }
     #formutitle > p {
         font-size: larger;
         font-family: var(--font1);
         font-weight: bold;
-        white-space:  nowrap;
+        
     }
     form{
         margin-top: 10px;
@@ -481,11 +482,11 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
-        margin-right: -250px;
+        margin-right: -200px;
     }
     #con{
         display: grid;
-        margin-right: -300px;
+        margin-right: -200px;
     }
     #con > h1{
         font-family: var(--font1);
