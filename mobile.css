@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --font1 : "Montserrat", sans-serif;
+    --font2 : "Inter", sans-serif;
+}
 *{
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
@@ -44,6 +50,7 @@ header> div > img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font1);
 }
 menu{
     display: none;
@@ -55,6 +62,8 @@ menu{
 menu > nav > a{
     text-decoration: none;
     color: #453F59;
+    font-family: var(--font1);
+    font-weight: bold;
 }
 nav{
     padding: 50px;
@@ -96,19 +105,22 @@ nav{
     background-position: center;
     background-repeat: no-repeat
 } 
-#inicio > h1{
-    padding: 20px;
+#inside > h1{
+    font-family: var(--font1);
     color: #FF160B;
-    font-weight: bolder;
+    font-weight: 900;
 }
-#inicio >h3{
+#inside  >h3{
+    font-family: var(--font1);
     padding-top: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #453F59;
 }
 #inicio > p {
     color: #FF160B;
     font-weight: bold;
+    font-family: var(--font1);
+    font-weight: 800;
 }
 
 #modal{
@@ -134,18 +146,23 @@ nav{
     color: #FF003D;
 }
 
-#botao{
+#inside > button{
     margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 20px;
     border: none;
     background-color: #FF160B;
     color: white;
+    font-family: var(--font1);
+    font-weight: bolder;
 
 }
+
 #botao > a{
     text-decoration: none;
     color: white;
+    font-family: var(--font1);
+    font-weight: bolder;
 }
 .box{
    
@@ -159,12 +176,24 @@ nav{
 
 #meio {
     text-align: center;
+    
 }
 #meio > h1{
     font-size: 2em;
-        color: #FF160B;
-        margin-bottom: 10px;
+    color: #FF160B;
+    margin-bottom: 10px;
+    font-family: var(--font1);
+    font-weight: 900;
 }
+#meio > h3{
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+#meio > p{
+    font-family: var(--font2);
+    font-weight: 600;
+}
+
 #meio > img{
         width: 130px;
 }
@@ -178,6 +207,12 @@ nav{
     font-size: 2.5em;
     color: #FF0086;
     margin-bottom: 20px;
+    font-family: var(--font1);
+    font-weight: 900;
+}
+#ofediv > h2{
+    font-family: var(--font1);
+    font-weight: bold;
 }
 #quada{
     display: flex;
@@ -201,26 +236,30 @@ nav{
 .quads > h2{
     color: #F564D3;
     font-size: 1.3em;
+    font-family: var(--font1);
+    font-weight: 800;  
 }
-
+.quads > p{
+    font-family: var(--font1);
+    font-weight: 600;
+}
 #quad2{
-    height: 120px;
+    height: 130px;
     margin-top: 5px;
 }
 #quad1{
-    height:  180px;
+    height:  190px;
     margin-right: 5px;
     
 }
 #quad3{
     
-    height: 330px;
+    height: 350px;
 }
 #quad4{
     margin-left: 5px;
     width: 135px;
-   
-    height: 130px;
+    height: 125px;
 }
 
 #quad5{
@@ -228,11 +267,12 @@ nav{
     margin-left: 5px;
     width: 135px;
     
-    height: 170px;
+    height: 195px;
 }
 #ofediv{
 
 }
+
 #top{
     display: grid;
     justify-items: center;
@@ -247,32 +287,54 @@ nav{
     color: #FF207C;
 }
 #topcima > h3{
-    
     border:  2px solid #F1BEE9;
     border-radius: 10px;
-    width: 100px;
+    
     background-color: #F2B0D7;
 }
 #topbaixo > h3{
-    
     border:  2px solid #F1BEE9;
-    border-radius: 10px;
-    width: 100px;
+    border-radius: 10px;  
     background-color: #F2B0D7;
 }
 
-#h31{
-    transform: rotate(30deg);
+#h1{
+    width: 50px;
+    height: 22px; 
+    margin-left: 100px;
+    transform: rotate(15deg);
+    padding: 0px;
+
+    
+}
+#h2{
+    width: 60px;
+    transform: rotate(20deg);
+    
+}
+#h3{
+    
+    transform: rotate(-40deg);
+    width: 200px;
+}
+#h4{
+    transform: rotate(12deg);
 }
 #port{
     margin: 30px;
     text-align: center;
 
 }
+#port > h2{
+    font-family: var(--font1);
+    font-weight: bold;
+}
 #port > h1{
     font-size: 2.5em;
     color: #F100DF;
     margin-bottom: 20px;
+    font-family: var(--font1);
+    font-weight: 900;
 }
 #port> a{
      border: 2px solid#F100DF;
@@ -280,7 +342,13 @@ nav{
     color: white;
     border-radius: 15px;
     padding: 10px;
-     margin: 10px;
+    margin: 10px;
+    font-family: var(--font2);
+    font-weight: 600;
+}
+#dis{
+    font-family: var(--font2);
+    font-weight: 600;
 }
 #pf{
     text-align: center;
@@ -290,6 +358,8 @@ nav{
 #pf > h1{
     color: #8207FF;
     font-size: 2.5em;
+    font-family: var(--font1);
+    font-weight: 900;
 }
 #cp{
     text-align: center;
@@ -304,20 +374,33 @@ nav{
     color: #B85BFE;
     font-weight: bold;
     font-size: 1.2em;
+    font-family: var(--font1);
+    font-weight: 900;
+    margin-bottom: 10px;
     
 }
 #formu{
-    
     text-align: center;
     margin: 20px;
+   
     
 }
 #formutitle> h1{
     color: #8007FF;
     font-size: 2.4em;
+    font-family: var(--font1);
+    font-weight: 900;
 }
 #formutitle > h4{
     color: #C200FF;
+    font-family: var(--font1);
+    font-weight: bold;
+    white-space:  nowrap;
+}
+#formutitle > p{
+    font-family: var(--font1);
+    font-weight: bold;
+    white-space:  nowrap;
 }
 form{
     margin-top: 10px;
@@ -326,6 +409,8 @@ form{
 }
 form > label{
     margin-left: 10px;
+    font-family: var(--font1);
+    font-weight: bold;
 }
 input{
     width: 50vw;
@@ -355,6 +440,8 @@ label{
     font-weight: bold;
     font-size: larger;
     background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+    font-family: var(--font1);
+    
 }
 #formunome{
     display: flex;
@@ -362,6 +449,8 @@ label{
 #formunome > label{
     margin-left: 8px;
     margin-right: 155px;
+    font-family: var(--font1);
+    font-weight: bold;
 }
 #formuinnome{
     display: flex;
@@ -388,6 +477,8 @@ label{
     color: white;
     font-weight: bold;
     font-size: larger;
+    font-family: var(--font1);
+    font-weight: bold;
    
 }
 #con{
@@ -396,10 +487,13 @@ label{
 #con > h1{
     color: #8906FF;
     font-size: 2em;
-    
+    font-family: var(--font1);
+    font-weight: 800;
 }
 #con > p {
     margin: 15px;
+    font-family: var(--font1);
+    font-weight: bold;
 }
 
 #box1{
@@ -414,12 +508,14 @@ footer{
     font-weight: bold;
     padding-top: 30px;
     display: grid;
+    font-family: var(--font1);
 }
 #footpag{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     margin-top: 5px;
+    font-family: var(--font1);
 }
 
 #footpagimg > img{
@@ -430,11 +526,13 @@ footer{
 #footpagtext > a{
     text-decoration: none;
     color: #3D374F;
+    font-family: var(--font1);
     
 }
 #footfo > a{
     text-decoration: none;
     color: #3D374F;
+    font-family: var(--font1);
 }
 #isobn{
     margin-right: 0px;
@@ -442,6 +540,7 @@ footer{
 footer > a{
     text-decoration: none;
     color: #3D374F;
+    font-family: var(--font1);
 }
 footer > a:hover{
     color: red;
