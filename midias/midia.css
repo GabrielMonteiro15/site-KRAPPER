@@ -4,7 +4,7 @@
 @media screen and (min-width: 768px) {
     :root{
         --font1 : "Montserrat", sans-serif;
-        --font2 : "Inter", sans-serif;
+        --font2 : "Inter"; 
     }
     *{
         margin: auto;
