@@ -10,13 +10,19 @@
         background-attachment: scroll;
         background-position: center top;
         background-repeat: no-repeat;
-        margin: auto;
-        width: 100vw;
+        margin: 0px;
+        width: 1000px;
     }
     html{
-        margin: auto;
-        width: 80vw;
+       
+        width: 1100px;
     }
+    header{
+        display: flex;
+        background-image:  radial-gradient(circle, #F0E3F9, #F1E5FE);;
+        margin-right: 60px;
+        font-family: var(--font1);
+    };
     #menuicon{
         display: none;
         position: static;
@@ -239,20 +245,10 @@
         font-weight: bold;
     }
     footer{
-        width: 1070px;
+        width: 1150px;
         margin-left: -100px;
         
     }
     
-}
-
-@media  screen and (max-width:1440) and (min-width: 431) {
-    #cont{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
 }
 
