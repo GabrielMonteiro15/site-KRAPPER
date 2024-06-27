@@ -241,6 +241,7 @@
     #h0{
         width: 100px;
         margin-left: -20px;
+        padding: 10px;
     }
     #h1{
         width: 50px;
@@ -517,6 +518,7 @@
         display: grid;
         margin: auto;
         margin-left: auto;
+        margin-right: -100px;
        
     }
     #con > h1{
