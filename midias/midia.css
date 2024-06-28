@@ -216,14 +216,14 @@
         
     }
     #topcima > h3{
-        padding: 3px;
+        
         font-family: var(--font2);
         font-weight: 800;
     }
     #topbaixo{
         display: flex;
         margin-top: -0.5em;
-        padding: 3px;
+        
         
     }
     #topbaixo > h3{
@@ -241,32 +241,35 @@
     #h0{
         width: 100px;
         margin-left: -20px;
-        padding: 10px;
+        padding: 15px;
+        margin-bottom: -10px;
     }
     #h1{
         width: 50px;
         height: 22px; 
-        margin-left: 70px;
+        margin-left: 110px;
         transform: rotate(15deg);
-        padding: 0px;
+        padding: 15px;
         margin-bottom: 15px;
     }
     #h2{
         width: 80px;
         transform: rotate(20deg);
-
-        
+        padding: 15px;
+        margin: 5px;
     }
     #h3{
         margin-top: -0.8em;
         transform: rotate(-30deg);
         width: 150px;
         margin-left: -10px;
+        padding: 15px;
     }
     #h4{
         width: 140px;
         transform: rotate(7deg);
         margin-left: -40px;
+        padding: 15px;
     }
     .quads{
         width: 300px;
@@ -417,6 +420,8 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -1.8em;
+        margin-left: 560px;
     }
     #formutitle > p {
         font-size: larger;
