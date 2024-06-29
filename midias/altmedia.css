@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @media screen and (max-width: 768px ) and (min-width: 431px){
+    :root{
+        --font1 : "Montserrat", sans-serif;
+        --font2 : "Inter"; 
+    }
     *{
         margin: auto;
         padding: 0px;
@@ -22,34 +26,60 @@
         background-image:  radial-gradient(circle, #F0E3F9, #F1E5FE);;
         margin-right: 60px;
         font-family: var(--font1);
-    };
+    }
     #menuicon{
         display: none;
-        position: static;
-        color: black;
-        height: 30px;
-        padding: 0;
-        width: 30px;
-        margin-left: 220px;
-        
+  
     }
     menu{
-        display:    flex;
+        display:   flex;
         
         
+    }
+    #zap{
+        font-family: var(--font1);
+        font-weight: bold;
+        white-space: nowrap;
+        padding: 15px;
+        text-align: center;
+        padding-right: 25px;
+    }
+    #inicio{
+        height: 400px;
+    }
+    #inside{
+        width: 500px;
+        margin-left: 50px;
     }
     #inside > h3{
         white-space: nowrap;
+        font-size: 2em;
+    }
+    #inside > h1{
+        font-size: 2.5em;
+    }
+    #iniciodiv{
+        display: flex;
+        margin-bottom: 20px;
     }
     #pczin{
-        margin-left: 100px;
+        display: grid;
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+
     }
     .box{
         width: 800px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
     }
     #inicio > p{
         white-space: nowrap;
+        font-size: 1.7em;
     }
+   
     #port > h2{
         white-space: nowrap;
         margin-left: 150px;
@@ -69,11 +99,29 @@
         
     }
     #meio{
-        margin-left: 180px;
+        margin-left: auto;
+
+    }
+    #meio > h1{
+        font-size: 2.5em;
+    }
+    #meio > h3{
+        display: flex;
+        justify-content: center;
+    }
+    .cordif{
+        font-family: var(--font1);
+        margin: 0px;
     }
     #logo2{
         width: 50px;
         height: 60px;
+    }
+    #ofediv{
+        display: flex;
+    }
+    #ofediv > h1{
+        margin-bottom: -2.5em ;
     }
     #pf{
         margin: auto;

@@ -437,14 +437,14 @@
         padding: 13px;
     }
     #cont{
-        
+        margin-left: 200px;
     }
     #con{
         margin-left: 400px;
         margin-right: -100px;
     }
-    #footer{
-        width: 1450px;
+    footer{
+        width: 1600px;
     }
     
 }
