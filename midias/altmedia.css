@@ -15,11 +15,11 @@
         background-position: center top;
         background-repeat: no-repeat;
         margin: 0px;
-        width: 1000px;
+        width: 900px;
     }
     html{
        
-        width: 1100px;
+        width: 900px;
     }
     header{
         display: flex;
@@ -36,6 +36,9 @@
         
         
     }
+    #itensmenu > nav{
+        padding: 20px;
+    }
     #zap{
         font-family: var(--font1);
         font-weight: bold;
@@ -43,13 +46,15 @@
         padding: 15px;
         text-align: center;
         padding-right: 25px;
+        margin-right: 200px
     }
     #inicio{
         height: 400px;
     }
     #inside{
         width: 500px;
-        margin-left: 50px;
+        margin-left: 30px;
+        margin-right: 0px;
     }
     #inside > h3{
         white-space: nowrap;
@@ -66,32 +71,39 @@
         display: grid;
         width: 250px;
         height: 250px;
-        margin-left: 30px;
+        margin-left: 0px;
 
     }
     .box{
-        width: 800px;
+        width: 600px;
         display: flex;
         justify-content: center;
         margin: auto;
     }
     #inicio > p{
         white-space: nowrap;
-        font-size: 1.7em;
+        font-size: 1.4em;
+        margin-left: -20px;
     }
-   
+    #port{
+        display: flex;
+    }
     #port > h2{
         white-space: nowrap;
-        margin-left: 150px;
+        margin-left: 0px;
+       
     }
     #port > h1{
-        margin-top: 40px;
+        margin-top: 2.5em;
         white-space: nowrap;
+        margin-left: -255px;
     }
     #port > a{
-        margin-left: 130px;
-        width: 500px;
+        margin-right: 150px;
+        width: 200px;
         white-space: nowrap;
+        height: 20px;
+        margin-top: 70px;
     }
     #portcont{
         align-items: center;
@@ -121,7 +133,12 @@
         display: flex;
     }
     #ofediv > h1{
-        margin-bottom: -2.5em ;
+        margin-top: 2.5em;
+        margin-left: -400px;
+        margin-right: -140px;
+    }
+    #h4{
+        padding: 8px;
     }
     #pf{
         margin: auto;
@@ -133,11 +150,31 @@
         margin-top: 30px;
         display: grid;
         width: 800px;
-        justify-content: end;
+        justify-content: center;
         padding-right: 20px;
     }
     #quada{
         margin-left: -30px;
+    }
+    .quads{
+        width: 200px;
+        display: grid;
+        text-align: center;
+        padding: 5px;
+    }
+    #esq{
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+    #quad3{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #dir{
+        margin-left: 0px;
+    }
+    #dis{
+        font-size: 0.75em;
     }
     #formu{
         display: grid;
@@ -156,7 +193,7 @@
         height: 150px;
         white-space: pre-wrap;
         word-break: break-all;
-        margin-left: 100px;
+        margin-left: -70px;
     }
     #formutitle > h1{
         color: #8007FF;
@@ -175,7 +212,7 @@
         font-weight: bold;
     }
     #formutitle > p {
-        font-size: larger;
+        font-size: 1em;
         font-family: var(--font1);
         font-weight: bold;
         white-space: nowrap;        
@@ -194,7 +231,7 @@
         justify-content: center;
         margin: auto;
         width: 900px;
-        margin-left: 450px;
+        margin-left: 200px;
     }
     input{
         width: 50vw;
@@ -279,7 +316,7 @@
     }
     #con{
         display: grid;
-       margin-left: 330px;
+       margin-left: 300px;
        
     }
     #con > h1{
@@ -293,9 +330,72 @@
         font-weight: bold;
     }
     footer{
-        width: 1150px;
-        margin-left: -100px;
+        height: 300px;
+        background-color: #E8DEF4;
+        color: #3D374F;
+        font-weight: bold;
+        padding-top: 30px;
+        display: grid;
+        font-family: var(--font1);
+        width: 900px;
+    }
+    #footpag{
+        display: grid;
+        position: relative;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-family: var(--font1);
+        left: -100px;
+    }
+    #footpagimg{
+        display: flex;
         
+    }
+    #footpagimg > img{
+        width: 70px;
+        height: 70px;
+        margin-right: -360px;
+    }
+    #footpagtext > a{
+        text-decoration: none;
+        color: #3D374F;
+        font-family: var(--font1);
+        
+    }
+    #footfo{
+        flex-direction: column;
+        display: flex;
+        font-family: var(--font1);
+        margin-top: -60px;
+        margin-right: auto;
+        margin-left: 240px;
+    }
+    #footfo > a{
+        text-decoration: none;
+        color: #3D374F;
+        font-family: var(--font1);
+    }
+    #footcon{
+        display: grid;
+        font-family: var(--font1);
+        margin-top: -220px;
+        margin-right: 100px;
+    }
+   
+    .boxver{
+          width: 3px;
+          height: 220px; 
+          margin: auto;
+          background-image: radial-gradient(circle, #453E55, transparent) ;
+          margin-left: 500px;
+          margin-top: -180px;
+          
+    }
+    #box2{
+        width: 99vw;
+        height: 2px;
+        background-image: radial-gradient(circle, #453E55, transparent) ;
     }
     
 }

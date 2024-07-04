@@ -548,11 +548,13 @@
         width: 99vw;
     }
     #footpag{
-        display: flex;
+        display: grid;
+        position: relative;
         justify-content: space-between;
         margin-bottom: 10px;
         margin-top: 5px;
         font-family: var(--font1);
+        left: -200px;
     }
     #footpagimg{
         display: flex;
@@ -561,7 +563,7 @@
     #footpagimg > img{
         width: 70px;
         height: 70px;
-        margin-right: 5px;
+        margin-right: -600px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -573,6 +575,9 @@
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
+        margin-top: -60px;
+        margin-right: auto;
+        margin-left: 640px;
     }
     #footfo > a{
         text-decoration: none;
@@ -580,8 +585,25 @@
         font-family: var(--font1);
     }
     #footcon{
-        display: flex;
+        display: grid;
         font-family: var(--font1);
+        margin-top: -220px;
+        margin-right: 800px;
+    }
+   
+    .boxver{
+          width: 3px;
+          height: 220px; 
+          margin: auto;
+          background-image: radial-gradient(circle, #453E55, transparent) ;
+          margin-left: 900px;
+          margin-top: -180px;
+          
+    }
+    #box2{
+        width: 99vw;
+        height: 2px;
+        background-image: radial-gradient(circle, #453E55, transparent) ;
     }
     footer > a{
         text-decoration: none;
@@ -594,6 +616,7 @@
     footer > img{
         width: 30px;
         height: 30px;
+
     }
     #copy{
         font-size: smaller;
