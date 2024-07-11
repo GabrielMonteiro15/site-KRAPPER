@@ -130,12 +130,30 @@
        
         <section id="port">
 
-                <h2>ALGUNS TRABALHO</h2> 
+                <h2>ALGUNS TRABALHOS</h2> 
                 <h1>FEITOS POR NÓS</h1> 
                 <a href="https://www.youtube.com/embed/cpL4mmnSqN0?si=HefllafmCHfaeqmv" target="_blank"><i class="fa-regular fa-circle-play" style="margin-right: 5px;  "></i>Assistir showreel</a>       
         </section>
+        <div class="slider-container">
+            <ul class="slider">
+                <li class="slide active">
+                    <img src="imagens/img1.jpg" alt="Imagem 1">
+                </li>
+                <li class="slide">
+                    <img src="imagens/img2.jpg" alt="Imagem 2">
+                    
+                </li>
+                <li class="slide">
+                    <img src="imagens/img3.jpg" alt="Imagem 3">
+                    
+                </li>
+            </ul>
+        </div>
+            <div id="btnsslide">
+                <button class="arrow-left" onclick="irParaEsquerda()"><-</button>
+                <button class="arrow-right" onclick="irParaDireita()">-></button>
+            </div>
         <div id="portcont">
-            <p>lorem</p>
             <button id="more"><a href="">VER MAIS</a></button>
         </div>        
             
@@ -235,33 +253,24 @@
             
             <p id="copy">Copyright © 2024 Krapper Studios Brasil | Todos os direitos reservados</p>
          </footer>
-        
-        <script>
-
-            function clickmenu(){
-                const menu = document.getElementById("itensmenu")
-                if(menu.style.display == 'block'){
-                    menu.style.display = 'none';
-
-                }else{
-                    menu.style.display = 'block'
-                
-                }
-            }
-
-            function popup(){
-                const modal = document.getElementById("modal")
-                const botao = document.getElementById("botao")
-                modal.show()
-            }
-            function fecharpopup(){
-                const modal = document.getElementById("modal")
-                const botao = document.getElementById("botao")
-                modal.close()
-            }
-           
-        </script>
+        <script src="script.js"></script>
        
+       <?php 
+            $nome = $_GET["nome"];
+            $sobrenome = $_GET["sobn"];
+            $mail = $_GET["mail"];
+            $msg = $_GET["ass"];
+
+            $desti = "sac@krapper.com.br";
+            $assunto = "Email enviado pelo site!";
+            $corpo = "Nome : $nome \nSobrenome : $sobrenome \n$msg";
+            $header = "MIME-Version: 1.0\n";
+            $header = "Content-type: text/html; charset=iso-8859-1\n";
+            $header = "From $mail";
+            
+            mail($desti,$assunto, $corpo, $header);
+           
+       ?>
        
       
 </body>

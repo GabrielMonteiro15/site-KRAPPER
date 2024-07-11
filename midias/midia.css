@@ -874,6 +874,65 @@
         
     }
     
+    .slider-container {
+        width: 800px; /* Ajuste a largura do container */
+        margin: 0 auto; /* Centraliza o slider na página */
+        position: relative; /* Posiciona para navegação absoluta */
+    }
+    
+    .slider {
+        display: flex; /* Alinha os slides lado a lado */
+        overflow: hidden; /* Esconde slides que ultrapassam a largura */
+        transition: transform 0.5s ease; /* Animação suave na troca de slides */
+    }
+    
+    .slide {
+        flex: 1; /* Distribui o espaço igualmente entre os slides */
+        align-items: center; /* Alinha o conteúdo verticalmente no centro */
+        text-align: center; /* Alinha o texto no centro */
+        position: relative; /* Posiciona para sobreposição de conteúdo */
+    }
+    
+    .slide.active {
+        z-index: 1; /* Traz o slide ativo para frente */
+    }
+    
+    .slide img {
+        width: 100%; /* Ajusta a largura da imagem à largura do slide */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .slide-content {
+        position: absolute; /* Posiciona o conteúdo sobre a imagem */
+        bottom: 20px; /* Distância da borda inferior */
+        left: 0;
+        width: 100%;
+        color: white; /* Cor do texto */
+    }
+    
+    /* Estilos para botões de navegação (opcional) */
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Centraliza verticalmente */
+        cursor: pointer;
+    }
+    
+    .arrow.arrow-left {
+        left: 20px; /* Distância da borda esquerda */
+    }
+    
+    .arrow.arrow-right {
+        right: 20px; /* Distância da borda direita */
+    }
+    
+    /* Estilos para indicadores de paginação (opcional) */
+    .pagination {
+        position: absolute;
+        bottom: 20px; /* Distância da borda inferior */
+        left: 50%;
+        transform: translateX(-50%); 
+    }
 }
 
 
