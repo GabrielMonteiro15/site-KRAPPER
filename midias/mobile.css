@@ -19,6 +19,7 @@ body{
     background-attachment: scroll;
     margin: auto;
     
+    
 }
 html{
     align-content: center;
@@ -27,6 +28,7 @@ html{
     display: flexbox;
     color: #3D374F;
     margin: auto;
+    
 }
 header{
     background-image: radial-gradient(circle, #F0CCE2, #F1D9F1);
@@ -57,8 +59,7 @@ menu{
     display: none;
     padding: 20px;
     text-align: center;
-    margin-right: -5px;
-    width: 100%;
+    width: 400px;
     
 }
 menu > nav > a{
@@ -66,6 +67,26 @@ menu > nav > a{
     color: #453F59;
     font-family: var(--font1);
     font-weight: bold;
+}
+#modal{
+    width: 400px;
+    height: 384px;
+    background-color: black;
+    margin-left: 15px;
+}
+#modal > iframe{
+    width: 400px;
+
+}
+#btnfechar{
+    border-radius: 15px;
+    padding: 10px;
+    font-family: var(--font1);
+    font-weight: bold;
+    background-color: #FF160B;
+    color: white;
+    display: flex;
+    margin: 0;
 }
 nav{
     padding: 50px;
@@ -125,24 +146,7 @@ nav{
     font-weight: 800;
 }
 
-#modal{
-    width: 400px;;
-    position: fixed;
-    margin: auto;
-    
-}
-#modal:target{
-    opacity: 1;
-    pointer-events: auto;
-}
-#modal:target + #fundo{
-    background-color: rgba(0,0,0,0.75);
-    position: fixed;
-    right: 0; 
-    left: 0; 
-    top: 0; 
-    bottom: 0;
-}
+
 .cordif{
     display: block;
     color: #FF003D;
@@ -250,6 +254,9 @@ nav{
     font-family: var(--font1);
     font-weight: 800;  
 }
+#esq{
+    margin-left: 5px;
+}
 .quads > p{
     font-family: var(--font1);
     font-weight: 600;
@@ -264,7 +271,7 @@ nav{
     
 }
 #quad3{
-    width: 140px;
+    width: 120px;
     height: 350px;
     
 }
@@ -362,7 +369,7 @@ nav{
 }
 #h4{
     margin-right: 5px;
-    width: 150px;
+    width: 140px;
     transform: rotate(10deg);
     margin-left: -87px;
 }
@@ -451,7 +458,8 @@ nav{
     color: #C200FF;
     font-weight: 800;
     margin-top: -1.3em;
-    margin-right: -255px;
+    margin-left: 150px;
+    width: 350px;
 }
 #formu{
     text-align: center;
@@ -535,7 +543,8 @@ label{
     width: 40vw;
 }
 .isobnc{
-    margin-right: 0px;
+    margin-right: 5px;
+    
 }
 #formuzap{
     width: 85vw;
@@ -558,6 +567,7 @@ label{
 }
 #con{
     text-align: center;
+    margin-left: 20px;
 }
 #con > h1{
     color: #8906FF;
@@ -577,7 +587,7 @@ label{
     margin: 5px;
 }
 footer{
-    width: 100%;
+    width: 98%;
     height: 300px;
     background-color: #E8DEF4;
     color: #3D374F;
@@ -613,6 +623,7 @@ footer{
 }
 #isobn{
     margin-right: 0px;
+    margin-left: 5px;
 }
 footer > a{
     text-decoration: none;
@@ -631,54 +642,55 @@ footer > img{
 }
 
 .slider-container {
-    width: 800px; /* Ajuste a largura do container */
-    margin: 0 auto; /* Centraliza o slider na página */
-    position: relative; /* Posiciona para navegação absoluta */
-
+    width: 350px; 
+    margin: 0 ; 
+    position: relative; 
+    margin-left: 90px;
 }
 
 .slider {
-    display: flex; /* Alinha os slides lado a lado */
-    overflow: hidden; /* Esconde slides que ultrapassam a largura */
-    transition: transform 0.5s ease; /* Animação suave na troca de slides */
+    display: flex; 
+    overflow: hidden;
+    transition: transform 0.5s ease; 
     margin: auto;
 }
 
 .slide {
-    flex: 1; /* Distribui o espaço igualmente entre os slides */
-    align-items: center; /* Alinha o conteúdo verticalmente no centro */
-    text-align: center; /* Alinha o texto no centro */
-    position: relative; /* Posiciona para sobreposição de conteúdo */
+    flex: 1; 
+    align-items: center; 
+    text-align: center; 
+    position: relative; 
 }
 
 .slide.active {
-    z-index: 1; /* Traz o slide ativo para frente */
+    z-index: 1; 
+    width: 300px;
 }
 
 .slide img {
-    width: 300px; /* Ajusta a largura da imagem à largura do slide */
-    height: 700px; /* Mantém a proporção da imagem */
-    margin-left: 60px;
+    width: 250px; 
+    height: 700px; 
+    
 }
 
 .slide-content {
-    position: absolute; /* Posiciona o conteúdo sobre a imagem */
-    bottom: 20px; /* Distância da borda inferior */
+    position: absolute; 
+    bottom: 20px; 
     left: 0;
     width: 100%;
-    color: white; /* Cor do texto */
+    color: white; 
 }
 
-/* Estilos para botões de navegação (opcional) */
+
 .arrow {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); /* Centraliza verticalmente */
+    transform: translateY(-50%);
     cursor: pointer;
 }
 
 .arrow-left {
-    left: 20px; /* Distância da borda esquerda */
+    left: 20px; 
     display: grid;
     background: transparent;
     border-radius: 15px;
@@ -686,17 +698,17 @@ footer > img{
 }
 
 .arrow-right {
-    right: 20px; /* Distância da borda direita */
+    right: 20px; 
     display: grid;
     background: transparent;
     border-radius: 15px;
     width: 50px;
 }
 
-/* Estilos para indicadores de paginação (opcional) */
+
 .pagination {
     position: absolute;
-    bottom: 20px; /* Distância da borda inferior */
+    bottom: 20px; 
     left: 50%;
     transform: translateX(-50%); 
 }

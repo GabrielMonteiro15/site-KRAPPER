@@ -118,7 +118,21 @@
         margin-left: 0px;
        
     }
-  
+    #modal{
+        width: 640px;
+        height: 360;
+        background-color: black;
+    }
+    #btnfechar{
+        border-radius: 15px;
+        padding: 10px;
+        font-family: var(--font1);
+        font-weight: bold;
+        background-color: #FF160B;
+        color: white;
+        display: flex;
+        margin: 0;
+    }
     .box{
         margin: auto;
         margin-top: 0px;

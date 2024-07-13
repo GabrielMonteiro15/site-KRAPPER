@@ -49,9 +49,13 @@
                     <div id="inside">
                         <h3>TRANSFORMANDO SIMPLES <br>VÍDEOS EM </h3>
                         <h1 >OBRAS DE ARTE</h1>
-                        <button onclick="popup()" id="botao"><a href="https://www.youtube.com/embed/cpL4mmnSqN0?si=HefllafmCHfaeqmv"
-                            target="_blank">ASSISTIR SHOWREEL</a></button>
+                        <button onclick="popup()" id="botao">ASSISTIR SHOWREEL</button>
                     </div>
+                    <dialog id="modal">
+                        <button id="btnfechar" onclick="fecharpopup()">Fechar</button>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/983403631?h=03c8278e0d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                            
+                    </dialog>
                     
                     <img src="imagens/12376837_4892805 1.svg" alt="" id="pczin">
                 </div>
@@ -150,8 +154,8 @@
             </ul>
         </div>
             <div id="btnsslide">
-                <button class="arrow-left" onclick="irParaEsquerda()"><-</button>
-                <button class="arrow-right" onclick="irParaDireita()">-></button>
+                <button class="arrow-left" onclick="irParaEsquerda()"><img src="imagens/arrowleft.svg" alt="arrow-left"></button>
+                <button class="arrow-right" onclick="irParaDireita()"><img src="imagens/arrowright.svg" alt="arrow-right"></button>
             </div>
         <div id="portcont">
             <button id="more"><a href="">VER MAIS</a></button>
