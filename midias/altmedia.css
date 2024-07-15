@@ -18,7 +18,7 @@
         width: 900px;
     }
     html{
-       
+       margin-left: 50px;
         width: 900px;
     }
     header{
@@ -35,6 +35,9 @@
         display:   flex;
         
         
+    }
+    #itensmenu{
+        margin-right: 150px
     }
     #itensmenu > nav{
         padding: 20px;
@@ -154,10 +157,11 @@
         padding-right: 20px;
     }
     #quada{
+        
         margin-left: -30px;
     }
     .quads{
-        width: 200px;
+        width: 700px;
         display: grid;
         text-align: center;
         padding: 5px;
@@ -166,9 +170,22 @@
         margin-right: 0px;
         margin-left: 120px;
     }
+    #quad1{
+        width: 180px;
+    }
+    #quad2{
+        width: 180px;
+    }
     #quad3{
         margin-left: 0px;
         margin-right: 0px;
+        width: 180px;
+    }
+    #quad4{
+        width: 180px;
+    }
+    #quad5{
+        width: 180px;
     }
     #dir{
         margin-left: 0px;
@@ -206,10 +223,11 @@
     }
    
     #h4form{
-        display: inline-flex;
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -1.9em;
+        margin-left: 660px;
     }
     #formutitle > p {
         font-size: 1em;
@@ -337,7 +355,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 900px;
+        width: 1000px;
     }
     #footpag{
         display: grid;
@@ -346,7 +364,7 @@
         margin-bottom: 10px;
         margin-top: 5px;
         font-family: var(--font1);
-        left: -100px;
+        left: -150px;
     }
     #footpagimg{
         display: flex;
@@ -380,7 +398,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -220px;
-        margin-right: 100px;
+        margin-right: 250px;
     }
    
     .boxver{
@@ -393,10 +411,27 @@
           
     }
     #box2{
-        width: 99vw;
+        width: 999px;
         height: 2px;
         background-image: radial-gradient(circle, #453E55, transparent) ;
     }
-    
+    .slider-container{
+        width: 600px;
+        height: 600px;
+    }
+    #slider{
+        height: 600px;
+    }
+    #btnsslide{
+        display: flex;
+    }
+   .arrow-left{
+        margin-top: -300px;
+        margin-left: -10px;
+        margin-right: 700px;
+   }
+   .arrow-right{
+     margin-top: -300px;
+   }
 }
 

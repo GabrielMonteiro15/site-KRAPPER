@@ -15,11 +15,11 @@
         background-position: center top;
         background-repeat: no-repeat;
         margin: 0px;
-        width: 1100px;
+        width: 900px;
     }
     html{
        
-        width: 1200px;
+        width: 1000px;
     }
     header{
         
@@ -29,13 +29,10 @@
         font-family: var(--font1);
     }
     #hitens{
-        width: 100vw;
         background-color: #E3DCF2;
         background-image: radial-gradient(circle, #F0E3F9, #F1E5FE);
         height: 100px;
-        display: grid;
-        justify-content: space-around;
-        align-items: baseline;
+        
     }
     #hitens > img{
         padding-left: 10px;
@@ -46,6 +43,12 @@
         position: static;
         justify-content: left;
         background-color: none;
+    }
+    #itensmenu{
+        margin-right: 100px;
+    }
+    #itensmenu > nav{
+        padding: 20px;
     }
     
     #menuicon{
@@ -75,6 +78,7 @@
         width: 180px;
         border: 2px solid gray;
         border-radius: 20px;
+        white-space: nowrap;
     }
     #dis{
         font-family: var(--font2);
@@ -107,7 +111,7 @@
         font-size: 1.5em;
         margin: 0px;
         height: 30px;
-        margin-bottom: -300px;
+        
     }
     #inside > h1{
         font-family: var(--font1);
@@ -123,7 +127,7 @@
        
     }
     .box{
-        margin: auto;
+        
         width: 800px;
         
     }
@@ -194,24 +198,26 @@
      font-size: 1.3em;
     }
     #quad1{
+        width: 250px;
         height: 360px;
     }
     #quad2{
+        width: 250px;
         height: 170px;
     }
     #quad3{
-        width: 290px;
+        width: 250px;
         height: 550px;
         margin-left: 5px;
         margin-right: 5px;
     }
     #quad4{
         height: 185px;
-        width: 300px;
+        width: 250px;
     }
     #quad5{
         height: 345px;
-        width: 300px;
+        width: 250px;
     }
     #port {
         display: flex;
@@ -240,8 +246,19 @@
         justify-content: center;
         
     }
-  
-   
+
+    .slider-container{
+        margin: auto;
+    }
+    #btnsslide{
+        display: flex;
+    }
+    .arrow-left{
+       margin-top: -300px;
+    }
+    .arrow-right{
+        margin-top: -300px;
+    }
     #pf{
         margin: auto;
     }
@@ -292,6 +309,8 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -1.8em;
+        margin-left: 640px;
     }
     #formutitle > p {
         font-size: larger;
@@ -313,7 +332,7 @@
         justify-content: center;
         margin: auto;
         width: 900px;
-        margin-left: 450px;
+        margin-left: 300px;
     }
     input{
         width: 50vw;
@@ -438,7 +457,8 @@
     #footpagimg > img{
         width: 70px;
         height: 70px;
-        margin-right: -600px;
+        margin-right: -370px;
+        margin-top: 50px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -481,6 +501,27 @@
     }
 }
 @media  screen and (max-width: 1440px ) and (min-width: 1025px) {
+   body{
+        width: 100%;
+   }
+    html{
+        width: 100%;
+        margin-left: 50px;
+    }
+    #hitens{
+        margin-right: 500px;
+    }
+    #itensmenu{
+        margin-right: 100px;
+    }
+    #itensmenu > nav{
+        padding: 30px;
+    }
+    #zap{
+        white-space: nowrap;
+    
+    }
+   
     #h0{
         margin-left: 20px;
         padding: 13px;
@@ -515,7 +556,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 99vw;
+        width: 1440px;
     }
     #footpag{
         display: grid;
