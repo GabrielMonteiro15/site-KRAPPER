@@ -15,10 +15,10 @@
 body{
     background: url(background/fundomobilepng.png);
     background-position: center top;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-attachment: scroll;
     margin: auto;
-    
+    width: 455px;
     
 }
 html{
@@ -28,6 +28,7 @@ html{
     display: flexbox;
     color: #3D374F;
     margin: auto;
+    width: 455px;
     
 }
 header{
@@ -692,18 +693,22 @@ footer > img{
 
 .arrow-left {
     left: 20px; 
-    display: grid;
     background: transparent;
     border-radius: 15px;
     width: 50px;
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-top: -400px;
+    height: 40px;
 }
 
 .arrow-right {
     right: 20px; 
-    display: grid;
     background: transparent;
     border-radius: 15px;
     width: 50px;
+    margin-top: -400px;
+    height: 40px;
 }
 
 
@@ -714,7 +719,7 @@ footer > img{
     transform: translateX(-50%); 
 }
 #btnsslide{
-    display: grid;
+    display: flex;
     margin: auto;
     height: 50px;
     margin-bottom: 20px;

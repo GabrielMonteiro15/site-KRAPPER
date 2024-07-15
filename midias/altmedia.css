@@ -355,7 +355,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 1000px;
+        width: 1100px;
     }
     #footpag{
         display: grid;
@@ -373,7 +373,7 @@
     #footpagimg > img{
         width: 70px;
         height: 70px;
-        margin-right: -360px;
+        margin-right: -300px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -387,7 +387,7 @@
         font-family: var(--font1);
         margin-top: -60px;
         margin-right: auto;
-        margin-left: 240px;
+        margin-left: 290px;
     }
     #footfo > a{
         text-decoration: none;
@@ -398,7 +398,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -220px;
-        margin-right: 250px;
+        margin-right: 350px;
     }
    
     .boxver{
@@ -406,7 +406,7 @@
           height: 220px; 
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
-          margin-left: 500px;
+          margin-left: 550px;
           margin-top: -180px;
           
     }
