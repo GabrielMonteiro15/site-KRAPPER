@@ -530,7 +530,7 @@
     }
     #itensmenu{
         display: flex;
-        margin-right: 200px;
+        margin-right: 350px;
     }
     #itensmenu > nav{
         padding: 20px;
