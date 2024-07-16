@@ -15,10 +15,10 @@
         background-position: center top;
         background-repeat: no-repeat;
         margin: 0px;
-        width: 900px;
+        width: 1000px;
     }
     html{
-       
+        margin-left: 0px;
         width: 1000px;
     }
     header{
@@ -332,7 +332,7 @@
         justify-content: center;
         margin: auto;
         width: 900px;
-        margin-left: 300px;
+        margin-left: 400px;
     }
     input{
         width: 50vw;
@@ -365,9 +365,7 @@
         font-family: var(--font1);
         background-image: linear-gradient(to right, #D870FF, #AA4CFD);
     }
-    #formuin{
-        display: block;
-    }
+   
     #formunome{
         display: flex;
     }
@@ -499,29 +497,80 @@
         width: 99vw;
         height: 2px;
     }
+    .slider-container{
+        margin: auto;
+    }
+    .arrow-left{
+        margin-left: 250px;
+    }
+    .arrow-right{
+        margin-right: 250px;
+    }
+
 }
 @media  screen and (max-width: 1440px ) and (min-width: 1025px) {
    body{
-        width: 100%;
+        background-image: url(background/fundopcpng.png);
+        width: 100vw;
    }
     html{
-        width: 100%;
-        margin-left: 50px;
+        width: 100vw;
+        margin-left: 0px;
+    }
+    #menuicon{
+        display: none;
+    }
+    header{
+        background-image: none;
+        display: flex;
     }
     #hitens{
-        margin-right: 500px;
+      margin-left: 50px;
+      margin-bottom: 30px;
     }
     #itensmenu{
-        margin-right: 100px;
+        display: flex;
+        margin-right: 200px;
     }
     #itensmenu > nav{
-        padding: 30px;
+        padding: 20px;
     }
     #zap{
         white-space: nowrap;
     
     }
-   
+    #inicio{
+        margin-top: 70px;
+    }
+    #iniciodiv{
+        display: flex;
+    }
+    #inside{
+        width: 700px;
+        margin-left: 100px;
+    }
+    #pczin{
+        margin-left: 100px;
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-top: -50px;
+    }
+    #meio{
+        margin-top: 70px;
+    }
+    #ofe{
+        
+    }
+    #ofediv{
+        display: flex;
+        margin-left: 250px;
+    }
+    #ofediv > h1{
+        margin-top: 1em;
+        margin-left: -150px;
+        margin-right: 200px;
+    }
     #h0{
         margin-left: 20px;
         padding: 13px;
@@ -540,12 +589,192 @@
     #h4{
         padding: 13px;
     }
-    #cont{
+    #quada{
+        margin-left: 400px;
+    }
+    #quad1{
+        width: 160px;
+    }
+    #quad2{
+        width: 160px;
+    }
+    #quad3{
+        width: 160px;
+    }
+    #quad4{
+        width: 160px;
+    }
+    #quad5{
+        width: 160px;
+    }
+    #port{
+        display: flex;
         margin-left: 200px;
     }
-    #con{
+    #port > h1{
+        margin-top: 1em;
+        margin-left: -270px;
+        margin-right: 00px;
+    }
+    #port > a{
+        height: 20px;
+        padding: 20px;
+    }
+    .slider-container{
+        margin-left: auto;
+    }
+    .arrow-left{
+        margin-right: 550px;
+    }
+    .arrow-right{
+        margin-right: 20px;
+    }
+    #dis{
+        margin-left: 50px;
+    }
+    #pf{
+        margin-top: 100px;
+    }
+    #cont{
+        margin-left: 100px;
+    }
+    #formu{
+        display: grid;
+        text-align: center;
+        margin: 20px;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-left: 0px;
+        
+    }
+    #formutitle{
+        display: grid;
+        text-align: center;
+        margin: 20px;
+        align-items: center;
+        height: 150px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        margin-left: -70px;
+    }
+    #formutitle > h1{
+        color: #8007FF;
+        font-size: 2em;
+        white-space: nowrap;
+        padding-left: 20px;
+        font-family: var(--font1);
+        font-weight: 900;
+        
+    }
+   
+    #h4form{
+        color: #C200FF;
+        font-family: var(--font1);
+        font-weight: bold;
+        margin-top: -4.2em;
+        margin-left: 770px;
+    }
+    #formutitle > p {
+        font-size: 1em;
+        font-family: var(--font1);
+        font-weight: bold;
+        white-space: nowrap;        
+    }
+    form{
+        margin-top: 10px;
+        text-align: left;
+        
+    }
+    form > label{
+        margin-left: 10px;
+        font-family: var(--font1);
+        font-weight: bold;
+    }
+    #formuin{
+        justify-content: center;
+        margin: auto;
+        width: 900px;
         margin-left: 400px;
-        margin-right: -100px;
+    }
+    input{
+        width: 50vw;
+        height: 40px;
+        background-image: linear-gradient(to right, #CD8AFF, #DA9AFF);
+        border: 2px solid #BD2FFF;
+        border-radius: 15px;
+        margin: 5px;
+       
+    }
+    #imail{
+        width: 620px;
+    }
+    #iass{
+        width: 620px;
+        height: 120px;
+    }
+    
+    label{
+        color: #7408FF;
+        font-weight: bold;
+    }
+    #enviar{
+        width: 620px;
+        height: 40px;
+        color: white;
+        padding: 3px;
+        font-weight: bold;
+        font-size: larger;
+        font-family: var(--font1);
+        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+    }
+    #formuin{
+        display: block;
+    }
+    #formunome{
+        display: flex;
+    }
+    #formunome > label{
+        margin-left: 10px;
+        font-family: var(--font1);
+        font-weight: bold;
+        margin-right: 260px;
+    }
+    #formuinnome{
+        display: flex;
+    }
+    #formuinnome > input{
+        margin-right: 10px;
+        width: 300px;
+    }
+    .isobn{
+        margin-right: 0px;
+        
+    }
+    #formuzap{
+        width: 620px;
+        height: 40px;
+        color: white;
+        padding: 3px;
+        border: 2px solid #BD2FFF;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
+        display: block;
+        
+    }
+    #formuzap > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: larger;
+        font-family: var(--font1);
+        font-weight: bold;
+       
+    }
+
+    #con{
+        margin: auto;
+        margin-left: -1000px;
+        margin-top: -350px;
     }
    
     footer{
@@ -557,6 +786,7 @@
         display: grid;
         font-family: var(--font1);
         width: 1440px;
+        margin-top: 300px;
     }
     #footpag{
         display: grid;
@@ -569,12 +799,16 @@
     }
     #footpagimg{
         display: flex;
-        
+        margin-left: 1020px;
+        margin-top: 70px;
     }
     #footpagimg > img{
         width: 70px;
         height: 70px;
         margin-right: -450px;
+    }
+    #footpagtext{
+        margin-left: 500px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -586,9 +820,9 @@
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
-        margin-top: -60px;
+        margin-top: -90px;
         margin-right: auto;
-        margin-left: 410px;
+        margin-left: 300px;
     }
     #footfo > a{
         text-decoration: none;
@@ -596,10 +830,10 @@
         font-family: var(--font1);
     }
     #footcon{
-        display: grid;
+        padding: 10px;
         font-family: var(--font1);
-        margin-top: -220px;
-        margin-right: 600px;
+        margin-top: -240px;
+        margin-left: 800px;
     }
    
     .boxver{
@@ -614,5 +848,17 @@
     #box2{
         width: 99vw;
         height: 2px;
-    }   
+    }  
+    #copy{
+        margin: auto;
+    }
+    .slider-container{
+        margin-left: 500px;
+    }
+    .arrow-left{
+        margin-left: 300px;
+    }
+    .arrow-right{
+        margin-right: 400px;
+    }
 }
