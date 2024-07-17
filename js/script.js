@@ -3,7 +3,7 @@ const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
 const arrowLeft = document.querySelector('.arrow-left');
 const arrowRight = document.querySelector('.arrow-right');
-
+const video = document.querySelector('.video');
 let activeSlideIndex = 0;
 
 // Função para mostrar o slide ativo
@@ -65,11 +65,24 @@ function clickmenu(){
 
 function popup(){
     const modal = document.getElementById("modal")
-    const botao = document.getElementById("botao")
+    const botao = document.querySelector('.botao')
     modal.show()
 }
+
 function fecharpopup(){
     const modal = document.getElementById("modal")
-    const botao = document.getElementById("botao")
+    const botao = document.getElementById("btnfechar")
     modal.close()
+}
+
+function popup1(){
+    const modal1 = document.getElementById("modal1")
+    const botao = document.getElementById("btn2")
+    modal1.show()
+}
+
+function fecharpopup1(){
+    const modal1 = document.getElementById("modal1")
+    const botao = document.getElementById("btnfechar1")
+    modal1.close()
 }

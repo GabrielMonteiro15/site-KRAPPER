@@ -69,17 +69,17 @@ menu > nav > a{
     font-family: var(--font1);
     font-weight: bold;
 }
-#modal{
+.modalc{
     width: 400px;
     height: 384px;
     background-color: black;
     margin-left: 15px;
 }
-#modal > iframe{
+.modalc > iframe{
     width: 400px;
 
 }
-#btnfechar{
+.btnfechar{
     border-radius: 15px;
     padding: 10px;
     font-family: var(--font1);
@@ -167,7 +167,7 @@ nav{
 
 }
 
-#botao > a{
+.botao > a{
     text-decoration: none;
     color: white;
     font-family: var(--font1);
@@ -391,8 +391,8 @@ nav{
     font-family: var(--font1);
     font-weight: 900;
 }
-#port> a{
-     border: 2px solid#F100DF;
+#port> button{
+    border: 2px solid#F100DF;
     text-decoration: none;
     color: white;
     border-radius: 20px;

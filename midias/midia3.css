@@ -18,7 +18,7 @@
         width: 1000px;
     }
     html{
-        margin-left: 0px;
+        margin-left: 50px;
         width: 1000px;
     }
     header{
@@ -127,14 +127,21 @@
        
     }
     .box{
-        
         width: 800px;
         
     }
     #inicio > p{
         white-space: nowrap;
     }
-
+    .modalc{
+        width: 800px;
+        height: 500px;
+        margin: auto;
+    }
+    .modalc > iframe{
+        width: 800px;
+        height: 460px;
+    }
     #meio{
         margin: auto;
         margin-left: 80px;
@@ -229,17 +236,19 @@
     #port > h1{
         margin-top: 2em;
         white-space: nowrap;
-        margin-left: -260px;
+        margin-left: -270px;
     }
-    #port > a{
+    #port > button{
+        border: 2px solid#F100DF;
         margin-left: 130px;
         width: 500px;
         white-space: nowrap;
-        height: 40px;
+        height: 70px;
         padding: 10px;
         margin-top: 50px;
         font-size: 1.4em;
-        padding-top: 20px;
+        
+        
     }
     #portcont{
         align-items: center;
@@ -511,10 +520,10 @@
 @media  screen and (max-width: 1440px ) and (min-width: 1025px) {
    body{
         background-image: url(background/fundopcpng.png);
-        width: 100vw;
+        width: 95vw;
    }
     html{
-        width: 100vw;
+        width: 95vw;
         margin-left: 0px;
     }
     #menuicon{
@@ -530,7 +539,7 @@
     }
     #itensmenu{
         display: flex;
-        margin-right: 30px;
+        margin-right: 100px;
     }
     #itensmenu > nav{
         padding: 20px;
@@ -555,6 +564,19 @@
         width: 300px;
         height: 300px;
         margin-top: -50px;
+    }
+    .modalc{
+        width: 900px;
+        height: 600px;
+        position: absolute;
+        background-color: black;
+        margin: auto;
+       
+    }
+    .modalc > iframe{
+        width: 900px;
+        height: 560px;
+        
     }
     #meio{
         margin-top: 70px;
@@ -609,28 +631,31 @@
     }
     #port{
         display: flex;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     #port > h1{
         margin-top: 1em;
         margin-left: -270px;
-        margin-right: 00px;
+        margin-right: 300px;
     }
-    #port > a{
-        height: 20px;
-        padding: 20px;
+    #port > button{
+        border: 2px solid#F100DF;
+        width: 250px;
+        height: 60px;
+        padding: 10px;
+        padding-right: 30px;
+        font-weight: bold;
+        font-size: 1.3em;
+        align-items: center;
+        font-family: var(--font2);
+        font-weight: 600;
+        text-decoration: none;
+       
+
     }
-    .slider-container{
-        margin-left: auto;
-    }
-    .arrow-left{
-        margin-right: 550px;
-    }
-    .arrow-right{
-        margin-right: 20px;
-    }
+   
     #dis{
-        margin-left: 50px;
+        margin-left: 200px;
     }
     #pf{
         margin-top: 100px;
@@ -853,12 +878,13 @@
         margin: auto;
     }
     .slider-container{
-        margin-left: 500px;
+        margin-left: 600px;
     }
     .arrow-left{
-        margin-left: 300px;
+        margin-left: 400px;
+        margin-right: 600px;
     }
     .arrow-right{
-        margin-right: 400px;
+       
     }
 }

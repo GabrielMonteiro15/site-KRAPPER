@@ -49,13 +49,14 @@
                     <div id="inside">
                         <h3>TRANSFORMANDO SIMPLES <br>VÍDEOS EM </h3>
                         <h1 >OBRAS DE ARTE</h1>
-                        <button onclick="popup()" id="botao">ASSISTIR SHOWREEL</button>
+                        <button onclick="popup()" class="botao">ASSISTIR SHOWREEL</button>
                         
                     </div>
                     <img src="imagens/12376837_4892805 1.svg" alt="" id="pczin">
-                    <dialog id="modal">
-                        <button id="btnfechar" onclick="fecharpopup()">Fechar</button>
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/983403631?h=03c8278e0d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                    <dialog id="modal" class="modalc">
+                        <button class="btnfechar" onclick="fecharpopup()">Fechar</button>
+                        
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/983403631?h=03c8278e0d" width="640" height="360" frameborder="0"    allowfullscreen class="video" controls autoplay ></iframe>
                             
                     </dialog>
                 </div>
@@ -139,8 +140,16 @@
 
                 <h2>ALGUNS TRABALHOS</h2> 
                 <h1>FEITOS POR NÓS</h1> 
-                <a href="https://www.youtube.com/embed/cpL4mmnSqN0?si=HefllafmCHfaeqmv" target="_blank"><i class="fa-regular fa-circle-play" style="margin-right: 5px;  "></i>Assistir showreel</a>       
+                <button id="btn2" onclick="popup1()"><i class="fa-regular fa-circle-play" style="margin-right: 5px;  " ></i>Assistir showreel</button>
+                
+               
         </section>
+        
+        <dialog id="modal1" class="modalc">
+            <button class="btnfechar" id="btnfechar1" onclick="fecharpopup1()">Fechar</button>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cpL4mmnSqN0?si=YPF_fp27SJENazEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </dialog>
+       
         <div class="slider-container">
             <ul class="slider">
                 <li class="slide active">
