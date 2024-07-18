@@ -52,6 +52,7 @@
     }
     #inicio{
         height: 400px;
+        margin-top: 50px;
     }
     #inside{
         width: 500px;
@@ -154,9 +155,10 @@
     }
     #ofediv > h1{
         margin-top: 2.5em;
-        margin-left: -400px;
-        margin-right: -140px;
+        margin-left: -150px;
+        margin-right: 100px;
     }
+   
     #h4{
         padding: 8px;
     }
@@ -174,8 +176,7 @@
         padding-right: 20px;
     }
     #quada{
-        
-        margin-left: -30px;
+        margin-left: 20px;
     }
     .quads{
         width: 700px;
@@ -183,26 +184,43 @@
         text-align: center;
         padding: 5px;
     }
+    .quads > img{
+        margin: auto;
+    }
+    .quads > h2{
+        font-size: 2em;
+    }
     #esq{
         margin-right: 0px;
         margin-left: 120px;
     }
     #quad1{
-        width: 180px;
+        width: 200px;
+        height: 220px;
     }
     #quad2{
-        width: 180px;
+        width: 200px;
+        height: 160px;
     }
     #quad3{
         margin-left: 0px;
         margin-right: 0px;
-        width: 180px;
+        width: 200px;
+        height: 400px;
+    }
+    #quad3 > h2{
+        font-size: 2em;
     }
     #quad4{
-        width: 180px;
+        width: 200px;
+        height: 160px;
+    }
+    #quad4 > h2{
+        font-size: 1.7em;
     }
     #quad5{
-        width: 180px;
+        width: 200px;
+        height: 220px;
     }
     #dir{
         margin-left: 0px;
@@ -244,7 +262,7 @@
         font-family: var(--font1);
         font-weight: bold;
         margin-top: -1.9em;
-        margin-left: 660px;
+        margin-left: 710px;
     }
     #formutitle > p {
         font-size: 1em;
@@ -301,6 +319,7 @@
     }
     #formuin{
         display: block;
+        margin-left: 300px;
     }
     #formunome{
         display: flex;

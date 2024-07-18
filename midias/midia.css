@@ -47,6 +47,7 @@
         position: static;
         justify-content: left;
         background-color: none;
+        margin-left: 250px;
     }
     
     menu > nav > a{
@@ -62,6 +63,7 @@
         border: 2px solid gray;
         border-radius: 20px;
         white-space: nowrap;
+        
     }
     #logo{
         margin-right: 0px;
@@ -75,12 +77,12 @@
     menu{
         display: flex;
         margin: 0px;
-        margin-right: 300px;
+        margin-right: 400px;
         
     }
    
     #inicio{
-        height: 900px;
+        height: 600px;
         margin-top: 30px;
     }
     #inicio > p{
@@ -165,10 +167,10 @@
         font-family: var(--font1);
         font-weight: bolder;
     }
-   #logo2{
-    width: 400px;
-    height: 100px;
-    display: grid;
+    #logo2{
+        width: 400px;
+        height: 100px;
+        display: grid;
 
    }
     #meio > h1{
@@ -201,9 +203,6 @@
     #top{
         display: flex;
     }
-    #quads{
-        display: inline-block;
-    }
     #ofediv{
         display: flex;
         word-spacing: 3px;    
@@ -214,7 +213,7 @@
         font-weight: 900;
         margin-top: 2em;
         margin-left: -190px;
-        margin-right: 30px;
+        margin-right: 150px;
 
     }
     #ofediv > h2{
@@ -294,32 +293,40 @@
         display: grid;
         text-align: center;
         padding: 5px;
+        border-radius: 30px;
     }
     .quads > img{
         margin-bottom: 5px;
         height: 80px;
+        margin: auto
     }
     .quads > h2{
         margin-top: 0px;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .quads > p{
         margin-top: 0px;
-     font-size: 1.3em;
+        font-size: 1.3em;
     }
     #quad1{
         height: 360px;
     }
     #quad2{
-        height: 170px;
+        height: 190px;
     }
     #quad3{
         width: 290px;
-        height: 550px;
+        height: 570px;
+    }
+    #quad3 > h2{
+        font-size: 2.5em;
     }
     #quad4{
-        height: 185px;
+        height: 200px;
         width: 300px;
+    }
+    #quad4 > h2{
+        font-size: 2.2em;
     }
     #quad5{
         height: 345px;
@@ -330,7 +337,7 @@
         justify-content: center;
         text-align: center;
         word-spacing: 3px;
-       
+        margin-top: 100px;
     }
     #port > h2{
         margin: 0px;
@@ -346,6 +353,7 @@
         margin-left: -360px;
         font-family: var(--font1);
         font-weight: 900;
+        font-size: 3em;
     } 
   
     #port > button{
@@ -392,10 +400,15 @@
         font-family: var(--font2);
         font-weight: 600;
     }
+    #pf{
+        margin-top: 100px;
+    }
     #pf > h1{
         font-family: var(--font1);
         font-weight: 900;
         font-size: 2.5em;
+        white-space: nowrap;
+        margin-bottom: 50px;
     }
     #cp > p {
         display: grid;
@@ -429,7 +442,7 @@
     }
     #formutitle > h1{
         color: #8007FF;
-        font-size: 2.5em;
+        font-size: 3em;
         white-space: nowrap;
         padding-left: 20px;
         font-family: var(--font1);
@@ -442,8 +455,8 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
-        margin-top: -1.8em;
-        margin-left: 560px;
+        margin-top: -1.6em;
+        margin-left: 580px;
     }
     #formutitle > p {
         font-size: larger;
@@ -494,6 +507,7 @@
     }
     #formuin{
         display: block;
+        margin-left: 300px;
     }
     #formunome{
         display: flex;
@@ -544,7 +558,7 @@
     #con{
         display: grid;
         margin: auto;
-        margin-left: 400px;
+        margin-left: 500px;
         margin-right: -100px;
        
     }
@@ -557,6 +571,7 @@
         word-spacing: 2px;
         font-family: var(--font1);
         font-weight: bold;
+        white-space: nowrap;
     }
   
     footer{
@@ -568,6 +583,7 @@
         display: grid;
         font-family: var(--font1);
         width: 99vw;
+        margin-top: 50px;
     }
     #footpag{
         display: grid;
@@ -585,7 +601,11 @@
     #footpagimg > img{
         width: 70px;
         height: 70px;
-        margin-right: -350px;
+        margin-right: -300px;
+        margin-top: 10px;
+        
+    }
+    #footpagtext {
         
     }
     #footpagtext > a{
@@ -645,6 +665,7 @@
         font-size: smaller;
     }
     .slider-container{
+        
         margin: auto;
     }
     .arrow-left{
