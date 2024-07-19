@@ -603,15 +603,15 @@
         
     }
     #footpagimg > img{
-        width: 150px;
-        height: 150px;
-        margin-right: -550px;
+        width: 130px;
+        height: 130px;
+        margin-right: -650px;
         margin-top: 10px;
         
     }
     #footpagtext {
         margin-bottom: -85px;
-        margin-left: -300px;
+        margin-left: -50px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -630,7 +630,7 @@
         font-family: var(--font1);
         margin-top: -60px;
         margin-right: auto;
-        margin-left: 453px;
+        margin-left: 575px;
     }
     #footfo > a{
         text-decoration: none;
@@ -645,7 +645,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -240px;
-        margin-right: 900px;
+        margin-right: 750px;
     }
     #footcon > h2{
         font-size: 2em;
@@ -658,7 +658,7 @@
           height: 220px; 
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
-          margin-left: 800px;
+          margin-left: 950px;
           margin-top: -180px;
           
     }
@@ -666,7 +666,7 @@
         width: 50vw;
         height: 2px;
         background-image: radial-gradient(circle, #453E55, transparent) ;
-        margin-left: 400px;
+        margin-left: 500px;
     }
     footer > a{
         text-decoration: none;
@@ -683,7 +683,7 @@
     }
     #copy{
         font-size: smaller;
-        margin-left: 450px;
+        margin-left: 550px;
     }
     .slider-container{
         
