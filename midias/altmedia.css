@@ -18,7 +18,7 @@
         width: 900px;
     }
     html{
-       margin-left: 50px;
+       margin-left: 80px;
         width: 900px;
     }
     header{
@@ -48,7 +48,7 @@
         padding: 15px;
         text-align: center;
         padding-right: 25px;
-        margin-right: 200px
+        margin-left: 120px;
     }
     #inicio{
         height: 400px;
@@ -74,7 +74,7 @@
         display: grid;
         width: 250px;
         height: 250px;
-        margin-left: 50px;
+        margin-left: 120px;
 
     }
     .box{
@@ -261,8 +261,8 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
-        margin-top: -1.9em;
-        margin-left: 710px;
+        margin-top: -2em;
+        margin-left: 800px;
     }
     #formutitle > p {
         font-size: 1em;
@@ -370,7 +370,7 @@
     }
     #con{
         display: grid;
-       margin-left: 300px;
+       margin-left: 350px;
        
     }
     #con > h1{
@@ -391,7 +391,8 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 1100px;
+        width: 1150px;
+        margin-left: -100px;
     }
     #footpag{
         display: grid;
@@ -407,28 +408,39 @@
         
     }
     #footpagimg > img{
-        width: 70px;
-        height: 70px;
-        margin-right: -300px;
+        width: 120px;
+        height: 120px;
+        margin-right: -600px;
+    }
+    #footpagtext{
+        margin-left: -100px;
+        margin-top: 20px;
     }
     #footpagtext > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
-        
+        font-size: large;
+    }
+    #footpagtext > h2{
+        font-size: 1.9em;
     }
     #footfo{
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
-        margin-top: -60px;
+        margin-top: -90px;
         margin-right: auto;
-        margin-left: 290px;
+        margin-left: 240px;
     }
     #footfo > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
+        font-size: large;
+    }
+    #footfo > h2{
+        font-size: 1.9em;
     }
     #footcon{
         display: grid;
@@ -436,24 +448,34 @@
         margin-top: -220px;
         margin-right: 350px;
     }
-   
+    #footcon > h2{
+        font-size: 1.9em;
+    }
+    #footcon  > p {
+        font-size: large;
+    }
     .boxver{
           width: 3px;
-          height: 220px; 
+          height: 230px; 
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
           margin-left: 550px;
-          margin-top: -180px;
+          margin-top: -190px;
           
     }
     #box2{
-        width: 999px;
+        width: 90vw;
         height: 2px;
         background-image: radial-gradient(circle, #453E55, transparent) ;
+        margin-left: 200px;
+    }
+    #copy{
+        margin-left: 230px;
     }
     .slider-container{
         width: 600px;
         height: 600px;
+        margin: auto;
     }
     .slider{
         height: 600px;
@@ -466,12 +488,12 @@
     }
    .arrow-left{
         margin-top: -300px;
-        margin-left: 80px;
+        margin-left: 180px;
         
    }
    .arrow-right{
      margin-top: -300px;
-     margin-right: 80px;
+     margin-right: 180px;
    }
 }
 

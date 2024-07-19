@@ -46,7 +46,7 @@
         background-color: none;
     }
     #itensmenu{
-        margin-right: 100px;
+        margin-right: 150px;
     }
     #itensmenu > nav{
         padding: 20px;
@@ -80,6 +80,7 @@
         border: 2px solid gray;
         border-radius: 20px;
         white-space: nowrap;
+        margin-left: 100px;
     }
     #dis{
         font-family: var(--font2);
@@ -330,7 +331,7 @@
         font-family: var(--font1);
         font-weight: bold;
         margin-top: -1.8em;
-        margin-left: 690px;
+        margin-left: 800px;
     }
     #formutitle > p {
         font-size: larger;
@@ -456,7 +457,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 1200px;
+        width: 1120px;
         margin-left: -50px;
 
     }
@@ -474,32 +475,41 @@
         
     }
     #footpagimg > img{
-        width: 70px;
-        height: 70px;
-        margin-right: -370px;
-        margin-top: 50px;
+        width: 120px;
+        height: 120px;
+        margin-right: -570px;
+        margin-top: -70px;
     }
     #footpagtext{
-        margin-right: 200px ;
+        margin-right: 100px ;
+        margin-top: 50px;
     }
     #footpagtext > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
+        font-size: large;
         
+    }
+    #footpagtext > h2{
+        font-size: 1.9em;
     }
     #footfo{
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
-        margin-top: -60px;
+        margin-top: -50px;
         margin-right: auto;
-        margin-left: 200px;
+        margin-left: 170px;
     }
     #footfo > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
+        font-size: large;
+    }
+    #footfo > h2{
+        font-size: 1.9em;
     }
     #footcon{
         display: grid;
@@ -507,7 +517,12 @@
         margin-top: -220px;
         margin-right: 400px;
     }
-   
+    #footcon > h2 {
+        font-size: 1.9em;
+    }
+    #footcon > a{
+        font-size: large;
+    }
     .boxver{
           width: 3px;
           height: 220px; 
@@ -518,8 +533,12 @@
           
     }
     #box2{
-        width: 99vw;
+        width: 80vw;
         height: 2px;
+        margin-left: 150px;
+    }
+    #copy{
+        margin-left: 180px;
     }
     .slider-container{
         margin: auto;
@@ -535,10 +554,10 @@
 @media  screen and (max-width: 1440px ) and (min-width: 1025px) {
    body{
         background-image: url(background/fundopcpng.png);
-        width: 95vw;
+        width: 89vw;
    }
     html{
-        width: 95vw;
+        width: 89vw;
         margin-left: 0px;
     }
     #menuicon{
@@ -554,7 +573,7 @@
     }
     #itensmenu{
         display: flex;
-        margin-right: 200px;
+        margin-right: 350px;
     }
     #itensmenu > nav{
         padding: 20px;
@@ -562,7 +581,7 @@
     #zap{
         white-space: nowrap;
         border-radius: 20px;
-        margin-left: 30px;
+        margin-left: 150px;
     }
     #inicio{
         margin-top: 70px;
@@ -770,7 +789,7 @@
         font-family: var(--font1);
         font-weight: bold;
         margin-top: -4.2em;
-        margin-left: 770px;
+        margin-left: 850px;
     }
     #formutitle > p {
         font-size: 1em;
@@ -883,7 +902,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 1440px;
+        width: 100vw;
         margin-top: 300px;
     }
     #footpag{
@@ -897,12 +916,12 @@
     }
     #footpagimg{
         display: flex;
-        margin-left: 1020px;
-        margin-top: 70px;
+        margin-left: 1250px;
+        margin-top: -40px;
     }
     #footpagimg > img{
-        width: 70px;
-        height: 70px;
+        width: 150px;
+        height: 150px;
         margin-right: -450px;
     }
     #footpagtext{
@@ -912,7 +931,10 @@
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
-        
+        font-size: large;
+    }
+    #footpagtext > h2{
+        font-size: 2em
     }
     #footfo{
         flex-direction: column;
@@ -926,14 +948,23 @@
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
+        font-size: large;
+    }
+    #footfo > h2{
+        font-size: 2em;
     }
     #footcon{
         padding: 10px;
         font-family: var(--font1);
-        margin-top: -240px;
-        margin-left: 800px;
+        margin-top: -260px;
+        margin-left: 750px;
     }
-   
+    #footcon > h2{
+        font-size: 2em;
+    }
+    #footcon > a{
+        font-size: large;
+    }
     .boxver{
           width: 3px;
           height: 220px; 
@@ -944,11 +975,12 @@
           
     }
     #box2{
-        width: 99vw;
+        width: 60vw;
         height: 2px;
+        margin-left: 200px;
     }  
     #copy{
-        margin: auto;
+       margin-left: 300px;
     }
     .slider-container{
         margin-left: 500px;

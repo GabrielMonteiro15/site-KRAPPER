@@ -49,7 +49,9 @@
         background-color: none;
         margin-left: 250px;
     }
-    
+    #itensmenu{ 
+        margin-right: 780px;
+    }
     menu > nav > a{
         text-decoration: none;
         color: #453F59;
@@ -63,8 +65,9 @@
         border: 2px solid gray;
         border-radius: 20px;
         white-space: nowrap;
-        
+        margin-left: 250px;
     }
+  
     #logo{
         margin-right: 0px;
     }
@@ -455,11 +458,11 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
-        margin-top: -1.6em;
-        margin-left: 580px;
+        margin-top: -1.8em;
+        margin-left: 655px;
     }
     #formutitle > p {
-        font-size: larger;
+        font-size: medium;
         font-family: var(--font1);
         font-weight: bold;
         white-space: nowrap;        
@@ -585,6 +588,7 @@
         width: 99vw;
         margin-top: 50px;
     }
+   
     #footpag{
         display: grid;
         position: relative;
@@ -599,54 +603,70 @@
         
     }
     #footpagimg > img{
-        width: 70px;
-        height: 70px;
-        margin-right: -300px;
+        width: 150px;
+        height: 150px;
+        margin-right: -550px;
         margin-top: 10px;
         
     }
     #footpagtext {
-        
+        margin-bottom: -85px;
+        margin-left: -300px;
     }
     #footpagtext > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
-        
+        font-size: large;
     }
+
+    #footpagtext > h2{
+        font-size: 2em;
+    }
+
     #footfo{
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
         margin-top: -60px;
         margin-right: auto;
-        margin-left: 640px;
+        margin-left: 453px;
     }
     #footfo > a{
         text-decoration: none;
         color: #3D374F;
         font-family: var(--font1);
+        font-size: large
+    }
+    #footfo > h2{
+        font-size: 2em;
     }
     #footcon{
         display: grid;
         font-family: var(--font1);
-        margin-top: -220px;
-        margin-right: 800px;
+        margin-top: -240px;
+        margin-right: 900px;
     }
-   
+    #footcon > h2{
+        font-size: 2em;
+    }
+    #footcon > a{
+        font-size: large;
+    }
     .boxver{
           width: 3px;
           height: 220px; 
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
-          margin-left: 900px;
+          margin-left: 800px;
           margin-top: -180px;
           
     }
     #box2{
-        width: 99vw;
+        width: 50vw;
         height: 2px;
         background-image: radial-gradient(circle, #453E55, transparent) ;
+        margin-left: 400px;
     }
     footer > a{
         text-decoration: none;
@@ -663,6 +683,7 @@
     }
     #copy{
         font-size: smaller;
+        margin-left: 450px;
     }
     .slider-container{
         
@@ -674,318 +695,7 @@
     .arrow-right{
         margin-right: 600px;
     }
-}
 
-@media screen and (max-width: 768px ) and (min-width: 431px){
-    *{
-        margin: auto;
-        padding: 0px;
-    }
-   
-    body{
-        background-image: url(background/fundopcpng.png);
-        background-attachment: scroll;
-        background-position: center top;
-        background-repeat: no-repeat;
-        margin: 0px;
-        width: 1000px;
-    }
-    html{
-       
-        width: 1100px;
-    }
-    header{
-        display: flex;
-        background-image:  radial-gradient(circle, #F0E3F9, #F1E5FE);;
-        margin-right: 60px;
-        font-family: var(--font1);
-    };
-    #menuicon{
-        display: none;
-        position: static;
-        color: black;
-        height: 30px;
-        padding: 0;
-        width: 30px;
-        margin-left: 220px;
-        
-    }
-    menu{
-        display:    flex;
-        
-        
-    }
-    #inside > h3{
-        white-space: nowrap;
-    }
-    #pczin{
-        margin-left: 100px;
-    }
-    .box{
-        width: 800px;
-    }
-    #inicio > p{
-        white-space: nowrap;
-    }
-    #port > h2{
-        white-space: nowrap;
-        margin-left: 150px;
-    }
-    #port > h1{
-        margin-top: 40px;
-        white-space: nowrap;
-    }
-    #port > button{
-        margin-left: 130px;
-        width: 500px;
-        white-space: nowrap;
-    }
-    #portcont{
-        align-items: center;
-        justify-content: center;
-        
-    }
-    #meio{
-        margin-left: 180px;
-    }
-    #logo2{
-        width: 50px;
-        height: 60px;
-    }
-    #pf{
-        margin: auto;
-    }
-    #pf > h1{
-        white-space: nowrap;
-    }
-    #cp{
-        margin-top: 30px;
-        display: grid;
-        width: 800px;
-        justify-content: end;
-        padding-right: 20px;
-    }
-    #quada{
-        margin-left: -30px;
-    }
-    #formu{
-        display: grid;
-        text-align: center;
-        margin: 20px;
-        align-items: center;
-        margin-bottom: 70px;
-        margin-left: 0px;
-        
-    }
-    #formutitle{
-        display: grid;
-        text-align: center;
-        margin: 20px;
-        align-items: center;
-        height: 150px;
-        white-space: pre-wrap;
-        word-break: break-all;
-        margin-left: 100px;
-    }
-    #formutitle > h1{
-        color: #8007FF;
-        font-size: 2em;
-        white-space: nowrap;
-        padding-left: 20px;
-        font-family: var(--font1);
-        font-weight: 900;
-        
-    }
-   
-    #h4form{
-        display: inline-flex;
-        color: #C200FF;
-        font-family: var(--font1);
-        font-weight: bold;
-    }
-    #formutitle > p {
-        font-size: larger;
-        font-family: var(--font1);
-        font-weight: bold;
-        white-space: nowrap;        
-    }
-    form{
-        margin-top: 10px;
-        text-align: left;
-        
-    }
-    form > label{
-        margin-left: 10px;
-        font-family: var(--font1);
-        font-weight: bold;
-    }
-    #formuin{
-        justify-content: center;
-        margin: auto;
-        width: 900px;
-        margin-left: 450px;
-    }
-    input{
-        width: 50vw;
-        height: 40px;
-        background-image: linear-gradient(to right, #CD8AFF, #DA9AFF);
-        border: 2px solid #BD2FFF;
-        border-radius: 15px;
-        margin: 5px;
-       
-    }
-    #imail{
-        width: 620px;
-    }
-    #iass{
-        width: 620px;
-        height: 120px;
-    }
-    
-    label{
-        color: #7408FF;
-        font-weight: bold;
-    }
-    #enviar{
-        width: 620px;
-        height: 40px;
-        color: white;
-        padding: 3px;
-        font-weight: bold;
-        font-size: larger;
-        font-family: var(--font1);
-        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
-    }
-    #formuin{
-        display: block;
-    }
-    #formunome{
-        display: flex;
-    }
-    #formunome > label{
-        margin-left: 10px;
-        font-family: var(--font1);
-        font-weight: bold;
-        margin-right: 260px;
-    }
-    #formuinnome{
-        display: flex;
-    }
-    #formuinnome > input{
-        margin-right: 10px;
-        width: 300px;
-    }
-    .isobn{
-        margin-right: 0px;
-        
-    }
-    #formuzap{
-        width: 620px;
-        height: 40px;
-        color: white;
-        padding: 3px;
-        border: 2px solid #BD2FFF;
-        border-radius: 15px;
-        background-image: linear-gradient(to right, #D870FF, #AA4CFD);
-        display: block;
-        
-    }
-    #formuzap > a{
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        font-size: larger;
-        font-family: var(--font1);
-        font-weight: bold;
-       
-    }
-    #cont{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    #con{
-        display: grid;
-       margin-left: 330px;
-       
-    }
-    #con > h1{
-        font-family: var(--font1);
-        font-weight: 800;
-    }
-    #con > p{
-        font-size: large;
-        word-spacing: 2px;
-        font-family: var(--font1);
-        font-weight: bold;
-    }
-    footer{
-        width: 1150px;
-        margin-left: -100px;
-        
-    }
-    
-    .slider-container {
-        width: 800px; /* Ajuste a largura do container */
-        margin: 0 auto; /* Centraliza o slider na página */
-        position: relative; /* Posiciona para navegação absoluta */
-    }
-    
-    .slider {
-        display: flex; /* Alinha os slides lado a lado */
-        overflow: hidden; /* Esconde slides que ultrapassam a largura */
-        transition: transform 0.5s ease; /* Animação suave na troca de slides */
-    }
-    
-    .slide {
-        flex: 1; /* Distribui o espaço igualmente entre os slides */
-        align-items: center; /* Alinha o conteúdo verticalmente no centro */
-        text-align: center; /* Alinha o texto no centro */
-        position: relative; /* Posiciona para sobreposição de conteúdo */
-    }
-    
-    .slide.active {
-        z-index: 1; /* Traz o slide ativo para frente */
-    }
-    
-    .slide img {
-        width: 100%; /* Ajusta a largura da imagem à largura do slide */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-    
-    .slide-content {
-        position: absolute; /* Posiciona o conteúdo sobre a imagem */
-        bottom: 20px; /* Distância da borda inferior */
-        left: 0;
-        width: 100%;
-        color: white; /* Cor do texto */
-    }
-    
-    /* Estilos para botões de navegação (opcional) */
-    .arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%); /* Centraliza verticalmente */
-        cursor: pointer;
-    }
-    
-    .arrow.arrow-left {
-        left: 20px; /* Distância da borda esquerda */
-    }
-    
-    .arrow.arrow-right {
-        right: 20px; /* Distância da borda direita */
-    }
-    
-    /* Estilos para indicadores de paginação (opcional) */
-    .pagination {
-        position: absolute;
-        bottom: 20px; /* Distância da borda inferior */
-        left: 50%;
-        transform: translateX(-50%); 
-    }
 }
 
 

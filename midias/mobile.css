@@ -459,10 +459,10 @@ nav{
 }
 #h4form{
     color: #C200FF;
-    font-weight: 800;
-    margin-top: -1.3em;
-    margin-left: 250px;
+    font-weight: 800;  
+    margin: auto;
     width: 150px;
+    
 }
 #formu{
     text-align: center;
