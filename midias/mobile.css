@@ -590,7 +590,7 @@ label{
     margin: 5px;
 }
 footer{
-    width: 98%;
+    width: 96.5%;
     height: 300px;
     background-color: #E8DEF4;
     color: #3D374F;
@@ -599,6 +599,7 @@ footer{
     display: grid;
     font-family: var(--font1);
     padding: 5px;
+    padding-left: 10px;
 }
 #footpag{
     display: flex;
@@ -609,9 +610,10 @@ footer{
 }
 
 #footpagimg > img{
-    width: 80px;
-    height: 70px;
-    margin-right: 5px;
+    width: 60px;
+    height: 80px;
+    margin-right: 15px;
+    margin-bottom: -70px;
 }
 #footpagtext > a{
     text-decoration: none;
