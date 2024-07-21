@@ -269,7 +269,7 @@
         justify-content: center;
         
     }
-
+ 
     .slider-container{
         margin: auto;
     }
@@ -287,6 +287,22 @@
     }
     #pf > h1{
         white-space: nowrap;
+    }
+    .pfs{
+        width: 750px;
+        border: 2px solid #9733FE;
+        border-radius: 20px;
+        color: #B85BFE;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: var(--font1);
+        font-weight: 900;
+        margin-bottom: 10px;
+        height: 150px;
+    }
+    .pfs > h2{
+        white-space: nowrap;
+        margin-bottom: 20px;
     }
     #cp{
         margin-top: 30px;
@@ -438,7 +454,7 @@
     }
     #con{
         display: grid;
-       margin: auto;
+        margin: auto;
        
     }
     #con > h1{
@@ -500,9 +516,9 @@
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
-        margin-top: 0px;
+        margin-top: 40px;
         margin-right: auto;
-        margin-left: 220px;
+        margin-left: 230px;
     }
     #footfo > a{
         text-decoration: none;
@@ -531,7 +547,7 @@
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
           margin-left: 580px;
-          margin-top: -180px;
+          margin-top: -210px;
           
     }
     #box2{
@@ -696,7 +712,7 @@
         font-size: 1em;
     }
     #quada{
-        margin-left: 400px;
+        margin-left: 350px;
     }
     #quad1{
         width: 200px;
@@ -759,8 +775,24 @@
     #pf{
         margin-top: 100px;
     }
+    .pfs{
+        width: 750px;
+        border: 2px solid #9733FE;
+        border-radius: 20px;
+        color: #B85BFE;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: var(--font1);
+        font-weight: 900;
+        margin-bottom: 10px;
+        height: 150px;
+    }
+    .pfs > h2{
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
     #cont{
-        margin-left: 100px;
+        margin-left: 0px;
     }
     #formu{
         display: grid;
@@ -779,7 +811,7 @@
         height: 150px;
         white-space: pre-wrap;
         word-break: break-all;
-        margin-left: -70px;
+        margin-left: 100px;
     }
     #formutitle > h1{
         color: #8007FF;
@@ -795,8 +827,8 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
-        margin-top: -4.2em;
-        margin-left: 850px;
+        margin-top: -2em;
+        margin-left: 765px;
     }
     #formutitle > p {
         font-size: 1em;
@@ -882,8 +914,7 @@
         border: 2px solid #BD2FFF;
         border-radius: 15px;
         background-image: linear-gradient(to right, #D870FF, #AA4CFD);
-        display: block;
-        
+        display: block;    
     }
     #formuzap > a{
         text-decoration: none;
@@ -897,8 +928,9 @@
 
     #con{
         margin: auto;
-        margin-left: -1000px;
-        margin-top: -350px;
+        margin-left: 550px;
+        margin-right: 300px;
+        
     }
    
     footer{
@@ -909,8 +941,8 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 100vw;
-        margin-top: 300px;
+        width: 1570px;
+        margin-top: 100px;
     }
     #footpag{
         display: grid;
@@ -930,11 +962,11 @@
         width: 110px;
         height: 150px;
         margin-right: -450px;
-        margin-top: -30px;
+        margin-top: -20px;
     }
     #footpagtext{
         margin-left: 500px;
-        margin-top: -10px;
+        margin-top: 10px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -949,7 +981,7 @@
         flex-direction: column;
         display: flex;
         font-family: var(--font1);
-        margin-top: -10px;
+        margin-top: 30px;
         margin-right: auto;
         margin-left: 300px;
     }

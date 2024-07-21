@@ -413,17 +413,23 @@
         white-space: nowrap;
         margin-bottom: 50px;
     }
-    #cp > p {
-        display: grid;
-        width: 700px;
-        height: 30px;
-        text-align: start;
-        padding: 5px;
+  
+    .pfs{
+        width: 750px;
+        border: 2px solid #9733FE;
+        border-radius: 20px;
+        color: #B85BFE;
+        font-weight: bold;
+        font-size: 1.2em;
         font-family: var(--font1);
         font-weight: 900;
         margin-bottom: 10px;
+        height: 150px;
     }
-   
+    .pfs > h2{
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
     #formu{
         display: grid;
         text-align: center;
@@ -611,7 +617,7 @@
     }
     #footpagtext {
         margin-bottom: -115px;
-        margin-left: -50px;
+        margin-left: 300px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -630,7 +636,7 @@
         font-family: var(--font1);
         margin-top: 40px;
         margin-right: auto;
-        margin-left: 575px;
+        margin-left: 530px;
     }
     #footfo > a{
         text-decoration: none;
@@ -645,7 +651,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -230px;
-        margin-right: 750px;
+        margin-right: 400px;
     }
     #footcon > h2{
         font-size: 2em;
@@ -658,7 +664,7 @@
           height: 220px; 
           margin: auto;
           background-image: radial-gradient(circle, #453E55, transparent) ;
-          margin-left: 950px;
+          margin-left: 850px;
           margin-top: -180px;
           
     }
@@ -696,7 +702,7 @@
         margin-right: 600px;
     }
 
-}
 
+}   
 
    

@@ -170,6 +170,22 @@
     #pf > h1{
         white-space: nowrap;
     }
+    .pfs{
+        width: 750px;
+        border: 2px solid #9733FE;
+        border-radius: 20px;
+        color: #B85BFE;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: var(--font1);
+        font-weight: 900;
+        margin-bottom: 10px;
+        height: 150px;
+    }
+    .pfs > h2{
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
     #cp{
         margin-top: 30px;
         display: grid;
@@ -372,7 +388,7 @@
     }
     #con{
         display: grid;
-       margin-left: 350px;
+         margin: auto;
        
     }
     #con > h1{
@@ -413,7 +429,7 @@
         width: 90px;
         height: 120px;
         margin-right: -550px;
-        margin-top: -40px;
+        margin-top: -30px;
     }
     #footpagtext{
         margin-left: -100px;
@@ -434,7 +450,7 @@
         font-family: var(--font1);
         margin-top: 0px;
         margin-right: auto;
-        margin-left: 240px;
+        margin-left: 230px;
         
     }
     #footfo > a{
@@ -502,4 +518,3 @@
      margin-right: 180px;
    }
 }
-
