@@ -615,6 +615,9 @@
         margin-top: 70px;
         margin-bottom: 150px;
     }
+    .box{
+        margin-left: 200px;
+    }
     #iniciodiv{
         display: flex;
     }
@@ -634,6 +637,7 @@
     #inicio > p{
         font-size: 1.5em;
         padding: 10px;
+        margin-left: 150px;
     }
     #pczin{
         margin-left: 100px;
@@ -657,11 +661,12 @@
     }
     .box{
         width: 60vw;
-        margin: auto;
+        margin-left: 250px;
     }
     #meio{
         margin-top: 70px;
         margin-bottom: 150px;
+        margin-left: 200px;
     }
     #meio > h1{
         font-size: 2.5em;
@@ -778,7 +783,9 @@
         margin-left: 200px;
     }
     #pf{
-        margin-top: 100px;
+        margin-top: 200px;
+        margin-left: 150px;
+        margin-bottom: 200px;
     }
     .pfs{
         width: 750px;
