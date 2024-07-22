@@ -617,7 +617,7 @@
     }
     #footpagtext {
         margin-bottom: -115px;
-        margin-left: 300px;
+        margin-left: -50px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -636,7 +636,7 @@
         font-family: var(--font1);
         margin-top: 40px;
         margin-right: auto;
-        margin-left: 530px;
+        margin-left: 490px;
     }
     #footfo > a{
         text-decoration: none;
@@ -651,7 +651,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -230px;
-        margin-right: 400px;
+        margin-right: 600px;
     }
     #footcon > h2{
         font-size: 2em;
