@@ -461,6 +461,8 @@ nav{
 }
 .pfs > p{
     font-family: var(--font1);  
+    margin-top: 15px;
+        margin-bottom: 15px;
 }
 #cp{
     text-align: center;

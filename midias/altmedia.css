@@ -190,6 +190,8 @@
     }
     .pfs > p{
         font-family: var(--font1);  
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     #cp{
         margin-top: 30px;

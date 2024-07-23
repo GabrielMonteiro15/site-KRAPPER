@@ -50,7 +50,7 @@
         margin-left: 250px;
     }
     #itensmenu{ 
-        margin-right: 780px;
+        margin-right: 750px;
     }
     menu > nav > a{
         text-decoration: none;
@@ -434,6 +434,8 @@
     }
     .pfs > p{
         font-family: var(--font1);  
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     #formu{
         display: grid;
