@@ -17,15 +17,17 @@
         background-attachment: scroll;
         background-position: center top;
         background-repeat: no-repeat;
+        background-size: auto;
         margin: auto;
         width: 100vw;
+       
     }
     html{
         margin: auto;
         width: 100vw;
+        
     }
     header{
-        
         display: flex;
         background-image:  radial-gradient(circle, #F0E3F9, #F1E5FE);;
         margin-right: 60px;
@@ -50,7 +52,7 @@
         margin-left: 250px;
     }
     #itensmenu{ 
-        margin-right: 750px;
+        margin-right: 350px;
     }
     menu > nav > a{
         text-decoration: none;
@@ -270,7 +272,7 @@
         margin-left: 110px;
         transform: rotate(15deg);
         padding: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 7px;
     }
     #h2{
         width: 80px;
@@ -279,7 +281,7 @@
         margin: 5px;
     }
     #h3{
-        margin-top: -0.8em;
+        margin-top: -1em;
         transform: rotate(-30deg);
         width: 150px;
         margin-left: -10px;
@@ -292,7 +294,7 @@
         padding: 15px;
     }
     .quads{
-        width: 300px;
+        width: 280px;
         display: grid;
         text-align: center;
         padding: 5px;
@@ -300,39 +302,39 @@
     }
     .quads > img{
         margin-bottom: 5px;
-        height: 80px;
+        height: 70px;
         margin: auto
     }
     .quads > h2{
         margin-top: 0px;
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
     .quads > p{
         margin-top: 0px;
         font-size: 1.3em;
     }
     #quad1{
-        height: 360px;
+        height: 350px;
     }
     #quad2{
         height: 190px;
     }
     #quad3{
-        width: 290px;
+        width: 280px;
         height: 570px;
     }
     #quad3 > h2{
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #quad4{
-        height: 200px;
+        height: 210px;
         width: 300px;
     }
     #quad4 > h2{
         font-size: 2.2em;
     }
     #quad5{
-        height: 345px;
+        height: 340px;
         width: 300px;
     }
     #port{
@@ -436,6 +438,7 @@
         font-family: var(--font1);  
         margin-top: 20px;
         margin-bottom: 20px;
+        text-align: start;
     }
     #formu{
         display: grid;
@@ -471,8 +474,7 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
-        margin-top: -1.8em;
-        margin-left: 655px;
+       
     }
     #formutitle > p {
         font-size: medium;
@@ -598,7 +600,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 99vw;
+        width: 99.1vw;
         margin-top: 50px;
     }
    
@@ -624,7 +626,7 @@
     }
     #footpagtext {
         margin-bottom: -115px;
-        margin-left: -50px;
+        margin-left: -240px;
     }
     #footpagtext > a{
         text-decoration: none;
@@ -658,7 +660,7 @@
         display: grid;
         font-family: var(--font1);
         margin-top: -230px;
-        margin-right: 600px;
+        margin-right: 720px;
     }
     #footcon > h2{
         font-size: 2em;
