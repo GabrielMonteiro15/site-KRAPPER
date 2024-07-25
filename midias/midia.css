@@ -19,12 +19,12 @@
         background-repeat: no-repeat;
         background-size: auto;
         margin: auto;
-        width: 100vw;
+        width: 1900px;
        
     }
     html{
         margin: auto;
-        width: 100vw;
+        width: 1900px;
         
     }
     header{
@@ -52,7 +52,8 @@
         margin-left: 250px;
     }
     #itensmenu{ 
-        margin-right: 350px;
+        margin-right: 230px;
+        
     }
     menu > nav > a{
         text-decoration: none;
@@ -307,24 +308,26 @@
     }
     .quads > h2{
         margin-top: 0px;
-        font-size: 2.2em;
+        font-size: 2em;
     }
     .quads > p{
         margin-top: 0px;
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     #quad1{
-        height: 350px;
+        height: 355px;
     }
     #quad2{
-        height: 190px;
+        height: 160px;
     }
     #quad3{
         width: 280px;
-        height: 570px;
+        height: 540px;
+        margin-top: 70px;
+        
     }
     #quad3 > h2{
-        font-size: 2.3em;
+        font-size: 2em;
     }
     #quad4{
         height: 210px;
@@ -334,7 +337,7 @@
         font-size: 2.2em;
     }
     #quad5{
-        height: 340px;
+        height: 310px;
         width: 300px;
     }
     #port{
@@ -474,6 +477,7 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -8px;
        
     }
     #formutitle > p {
@@ -600,7 +604,7 @@
         padding-top: 30px;
         display: grid;
         font-family: var(--font1);
-        width: 99.1vw;
+        width: 98.25vw;
         margin-top: 50px;
     }
    

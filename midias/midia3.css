@@ -47,6 +47,8 @@
     }
     #itensmenu{
         margin-right: 150px;
+        margin-left: 70px;
+
     }
     #itensmenu > nav{
         padding: 20px;
@@ -356,6 +358,7 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -10px;
         
     }
     #formutitle > p {
@@ -599,6 +602,7 @@
     #itensmenu{
         display: flex;
         margin-right: 350px;
+        margin-left: 100px;
     }
    
     #zap{
@@ -849,6 +853,7 @@
         color: #C200FF;
         font-family: var(--font1);
         font-weight: bold;
+        margin-top: -10px;
         
     }
     #formutitle > p {
